@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/register.css">
+		
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</head>
+	
+	<style>
+			html,#slider,.mui-content{  
+				width: 100%;  
+				height: 100%;  
+				background:rgba(35,42,56,1);
+		   }  
+		   body{
+		        width: 100%;  
+		        height: 100%; 
+				background:rgba(35,42,56,1);
+		   }  
+		   .mui-slider-group{  
+		       height: calc(100% - 45px);  
+		   }  
+		   
+			.mui-col-xs-4 {
+				width: 25%;
+			}
+			* { touch-action: none; }
+			.mui-slider-group{
+				background:rgba(35,42,56,1);
+			}
+			.mui-table-view-cell:after{
+				/* position: inherit; */
+					left: 0px;
+					opacity: 0.1;
+			}
+			.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+				color:#FFF;
+			}
+			.mui-active ,.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active
+			{
+				color: #02B3E5;
+				background-color: #2E3646;
+			}
+			.mui-active 
+			{
+				color: #02B3E5;
+				background:rgba(35,42,56,1);
+			}
+			#sliderSegmentedControl{
+				background-color: #2E3646;
+			}
+			.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{
+				background-color: #02B3E5
+			}
+			.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+				border-top: 0;
+			}
+			.mui-bar-nav~.mui-content{
+				padding-top: 13.33vw;
+			}
+			.mui-table-view-cell{
+				padding: 0;
+			}
+			
+			.mui-table-view{
+				position: initial;
+			}
+		</style>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title" >我出售的钻石</h1>
+		</header>
+		
+		
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<ul class="mui-table-view" style="background:rgba(35,42,56,1);">
+					<li class="mui-table-view-cell shelves">
+						<div class="shelves_up">
+							<img src="img/diamond.png" id="zuanshi_img">
+							<span class="shelves_up_left">：200</span>
+							<a class="shelves_up_right big-links" data-reveal-id="myModal5" data-animation="none">上架</a>
+						</div>
+					</li>
+					
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!--有标题可输入-->
+		<div id="myModal5" class="reveal-modal1 animated ">
+			<img class="dialogIco3" width="50" height="50" src="img/ico.png" alt="" />
+			<div class="dialogTop3">
+				<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+			</div>
+			<form action="" method="post" id="editForm">
+				<div class="editInfos4">
+					
+					<p>是否确定雇佣？</p>
+					<p style="font-size: 14px;color: #B2BCD2;">雇佣该名矿工需要支付<span style="color: #02B3E5;">9999</span>金币</p>
+					<div class="editDiv3"> 
+						<p class="editDiv3-left">账号密码</p>
+						<input type="" name="" id="" value=""  class="editDiv3-center" />
+						<p class="editDiv3-right">金币</p>
+					</div>
+					<div>
+						<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+						<button type="button" class="submitBtn queding">确认</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--有标题可输入结束-->
+		
+		
+	</body>
+
+</html>
+

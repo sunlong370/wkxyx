@@ -1,0 +1,324 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		li{
+			list-style-type:none;
+		}
+		input{
+			outline:none;
+
+		}
+		p{
+			margin: 0;
+		}
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		left: 10%;
+		/*margin-left: -300px;*/
+		width: 80%;
+		background: url(../img/bg_popup180.png) no-repeat center;
+		position: absolute;
+		z-index: 101;
+		/*padding: 30px 40px 34px;*/
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+
+		}
+	.reveal-modal1 {
+		visibility: hidden;
+		top: 100px; 
+		left: 10%;
+		/*margin-left: -300px;*/
+		width: 80%;
+		background: url(../img/bg_popup248.png) no-repeat center;
+		position: absolute;
+		z-index: 101;
+		/*padding: 30px 40px 34px;*/
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+
+		}
+	.reveal-modal6 {
+		visibility: hidden;
+		top: 100px; 
+		left: 10%;
+		/*margin-left: -300px;*/
+		width: 80%;
+		background: url(../img/bg_popup340.png) no-repeat center;
+		position: absolute;
+		z-index: 101;
+		/*padding: 30px 40px 34px;*/
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+
+		}
+
+	
+
+
+
+
+/*弹出框样式*/
+
+/*------------------- 华丽分割线 -----------------------*/
+
+#editForm{
+	    padding-bottom: 20px;
+}
+.dialogTop {
+	width: 90%;
+	margin: 0 auto;
+	/*border-bottom: 1px dotted #ccc;*/
+	letter-spacing: 1px;
+	padding: 15px 0;
+	text-align: right;
+	min-height: 42px;
+}
+
+
+
+.dialogIco {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -25px;
+}
+
+.editInfos {
+	padding: 15px;
+}
+
+.editInfos li {
+    width: 100%;
+    color: #fff;
+    /* margin: 8px auto auto; */
+    text-align: center;
+    /* margin: 15px; */
+    /*line-height: 42px;*/
+    min-height: 42px;
+}
+
+
+.submitBtn {
+    /*background: rgba(2, 179, 229, 1);*/
+    /*box-shadow: 0px 4px 1px 0px rgb(0, 105, 134), inset 1px -1px 1px 0 rgba(0, 0, 0, 0.3);*/
+    /*border-radius: 22px;*/
+   border-radius: 20px;
+   min-height: 42px;
+    border: 0;
+    margin: 10px;
+    color: #fff;
+    width: calc(50% - 23px);
+    line-height: 32px;
+}
+.quxiao{
+	background: url(../img/botton_cancel.png) no-repeat center;
+}
+.queding{
+	background: url(../img/botton_ok.png) no-repeat center;
+}
+
+
+.claseDialogBtn{
+	position: absolute;
+    right: -10px;
+    top: 20px;
+}
+
+
+
+.dialogTop1 {
+	width: 90%;
+	margin: 0 auto;
+	/*border-bottom: 1px dotted #ccc;*/
+	letter-spacing: 1px;
+	/*padding: 15px 0;*/
+	text-align: right;
+	
+	min-height: 42px;
+}
+
+.editInfos1 {
+	padding: 50px 30px;
+}
+
+.editInfos1 li {
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+	color: #B2BCD2;
+    /* margin: 8px auto auto; */
+    text-align: center;
+    /* margin: 15px; */
+    /*line-height: 42px;*/
+    min-height: 42px;
+}
+
+
+
+
+
+.dialogIco2 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*top: 10px;*/
+	left: 50%;
+	margin-left: -25px;
+}
+
+.dialogTop2{
+	width: 90%;
+	margin: 0 auto;
+	/*border-bottom: 1px dotted #ccc;*/
+	letter-spacing: 1px;
+	/*padding: 15px 0;*/
+	text-align: right;
+	
+	min-height: 42px;
+}
+
+.editInfos2{
+	padding: 10px 15px;
+	text-align: center;
+}
+.editInfos2 li {
+	font-size: 14px;
+	color: #B2BCD2;
+	line-height: 24px;
+}
+.editInfos2 li p{
+	color: #02B3E5;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dialogIco3 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	/*top: 10px;*/
+	left: 50%;
+	margin-left: -25px;
+}
+
+.dialogTop3{
+	width: 90%;
+	margin: 0 auto;
+	/*border-bottom: 1px dotted #ccc;*/
+	letter-spacing: 1px;
+	/*padding: 15px 0;*/
+	text-align: right;
+	
+	min-height: 42px;
+}
+
+.editInfos3{
+	padding: 20px 15px;
+	text-align: center;
+}
+.editDiv3{
+	    padding: 10px;
+    width: calc(100% - 20px);
+    line-height: 22px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+}
+
+.editDiv3-left{
+	width: 30%;
+	float: left;
+	margin: 0;
+}
+.editDiv3-center{
+    background: none;
+    width: 56%;
+    border: 0;
+    float: left;
+    color: #02B3E5;
+    /*margin: 16px 0;*/
+   
+    border-bottom: 1px solid #2E3646;
+}
+.editDiv3-right{
+	width: 14%;
+	margin: 0;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+.editInfos4{
+	color: #fff;
+	padding: 20px 15px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.editdiv-topimg{
+	    padding: 10px 20px;
+    float: left;
+}
+
+.editdiv-topbiaoti{
+	    padding: 10px 30px;
+    line-height: 22px;
+}
+.editdiv-mingcheng{
+	    float: left;
+	    color: #FFFFFF;
+}
+.editdiv-cailiao{
+		float: right;
+		color: #B2BCD2;
+		font-size: 12px;
+}
+.editdiv-bc{
+	color: #B2BCD2;
+	font-size: 12px;
+}
+/*弹出框样式结束*/

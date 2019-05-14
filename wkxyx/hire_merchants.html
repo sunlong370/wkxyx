@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/register.css">
+	</head>
+	
+	<style>
+		html,#slider,.mui-content{  
+			width: 100%;  
+			height: 100%;  
+			background:rgba(35,42,56,1);
+		}  
+		.mui-icon{
+		   font-size: 5vw;
+		}
+		body{
+			width: 100%;  
+			height: 100%; 
+			background:rgba(35,42,56,1);
+		}  
+		.mui-table-view-cell:after{
+			/* position: inherit; */
+				left: 0px;
+				opacity: 0.1;
+		}	
+		.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+			color:#FFF;
+		}		
+		.mui-bar-nav~.mui-content{
+			padding-top: 13.33vw;
+		}
+		.mui-table-view-cell{
+			padding: 0;
+		}
+		
+		.mui-table-view{
+			position: initial;
+		}
+		.mui-table-view{
+			background:rgba(35,42,56,1);
+		}
+	</style>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title" >我上架的矿工</h1>
+		</header>
+		
+		<div class="mui-content hire">
+			<div id="slider" class="mui-slider">
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell shelves">
+						<div class="hire_left">
+							<img src="img/worker_small@2x.png">
+						</div>
+						<div class="hire_right">
+							<p class="hire_copy hire_mall">
+								<span class="hire_mall_one hire_name">1号矿工</span>
+								<span class="hire_mall_two hire_button hire_fire">已被雇佣</span>
+								<span class="mui-icon mui-icon-arrowright hire_mall_three"></span>
+							</p>
+							<p class="hire_copy hire_introduce">
+								<span>体力：80</span>
+								<span>速度：100</span>
+								<span>熟练度：100</span>
+							</p>
+							<p class="hire_copy hire_money">
+								<span>价格：100金币/h</span>
+								<span>出租：8h</span>
+							</p>
+						</div>
+					</li>
+					<li class="mui-table-view-cell shelves">
+						<div class="hire_left">
+							<img src="img/worker_small@2x.png">
+						</div>
+						<div class="hire_right">
+							<p class="hire_copy hire_mall">
+								<span class="hire_mall_one hire_name">2号矿工</span>
+								<span class="hire_mall_two hire_button tobehired">待雇佣</span>
+								<span class="mui-icon mui-icon-arrowright hire_mall_three"></span>
+							</p>
+							<p class="hire_copy hire_introduce">
+								<span>体力：80</span>
+								<span>速度：100</span>
+								<span>熟练度：100</span>
+							</p>
+							<p class="hire_copy hire_money">
+								<span>价格：100金币/h</span>
+								<span>出租：8h</span>
+							</p>
+						</div>
+					</li>
+					<li class="mui-table-view-cell shelves">
+						<div class="hire_left">
+							<img src="img/worker_small@2x.png">
+						</div>
+						<div class="hire_right">
+							<p class="hire_copy hire_mall">
+								<span class="hire_mall_one hire_name">3号矿工</span>
+								<span class="hire_mall_two hire_button toshelves">已下架</span>
+								<span class="mui-icon mui-icon-arrowright hire_mall_three"></span>
+							</p>
+							<p class="hire_copy hire_introduce">
+								<span>体力：80</span>
+								<span>速度：100</span>
+								<span>熟练度：100</span>
+							</p>
+							<p class="hire_copy hire_money">
+								<span>价格：100金币/h</span>
+								<span>出租：8h</span>
+							</p>
+						</div>
+					</li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+

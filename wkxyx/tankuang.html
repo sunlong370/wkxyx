@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+	<title>Reveal Demo</title>
+	<!-- Attach our CSS -->
+	<link rel="stylesheet" href="css/reveal.css">
+	<!-- Attach necessary scripts -->
+	<!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	<style type="text/css">
+		body {
+			font-family: "HelveticaNeue", "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+		}
+		/*.big-link {
+			display: block;
+			margin-top: 100px;
+			text-align: center;
+			font-size: 70px;
+			color: #06f;
+		}*/
+	</style>
+</head>
+
+<body>
+	<a href="#" data-reveal-id="myModal" data-animation="none">
+		提示
+	</a>
+	<a href="#" class="big-link" data-reveal-id="myModal2" data-animation="none">
+		公告
+	</a>
+	<a href="#" class="big-link" data-reveal-id="myModal3" data-animation="none">
+		扣费提醒
+	</a>
+	
+	
+	
+	<a href="#" class="big-link" data-reveal-id="myModal4" data-animation="none">
+		可输入的
+	</a>
+	<a href="#" class="big-link" data-reveal-id="myModal5" data-animation="none">
+		有标题可输入的
+	</a>
+	<a href="#" class="big-link" data-reveal-id="myModal6" data-animation="none">
+		有产品图以及输入框的
+	</a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--提示通用-->
+	<div id="myModal" class="reveal-modal animated ">
+		<img class="dialogIco" width="50" height="50" src="img/ico.png" alt="" />
+		<div class="dialogTop">
+			<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+		</div>
+		<form action="" method="post" id="editForm">
+			<ul class="editInfos">
+				<li>
+					是否升级矿井
+				</li>
+				<li>
+					<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn queding">确认</button>
+					<!--<input type="button" value=""  />
+							<input type="submit" value="" class="" />-->
+
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!--提示通用结束-->
+	
+	
+	<!--公告-->	
+	<div id="myModal2" class="reveal-modal1">
+		<img class="dialogIco" width="50" height="50" src="img/ico.png" alt="" />
+		<div class="dialogTop1">
+			<a href="javascript:;" class="claseDialogBtn close-reveal-modal"><img src="img/icon_close.png"/></a>
+		</div>
+		<form action="" method="post" id="editForm">
+			<ul class="editInfos1">
+				<li>
+					1、矿工每次进入矿井都要交纳矿石开采 税（1000金币）； 2、矿井的矿石被挖完后，矿井将会关闭， 矿工会自动停止挖矿； 3、矿工进入矿井时，体力值要高于80， 每挖一次矿会消耗5点体力值，体力 值为0时，矿工自动停止挖矿； 4、矿工退出挖矿后，再次进入矿井时， 需要再次支付矿石开采税。 
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!--公告结束-->	
+	
+	
+	
+	<!--扣费提醒-->
+	<div id="myModal3" class="reveal-modal1 animated ">
+		<img class="dialogIco2" width="50" height="50" src="img/ico.png" alt="" />
+		<div class="dialogTop2">
+			<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+		</div>
+		<form action="" method="post" id="editForm">
+			<ul class="editInfos2">
+				<li style="color: #fff; font-size: 16px;">
+					是否确定支付？
+				</li>
+				<li>
+					矿工挖矿需要支付矿石开采税： <br />
+					<p>1000</p>
+					， 支付完成后矿工将会自动进入矿井 进行挖矿。
+				</li>
+				<li>
+					<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn queding">确认</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!--扣费提醒结束-->
+	
+	
+	<!--可输入的-->
+	<div id="myModal4" class="reveal-modal1 animated ">
+		<img class="dialogIco3" width="50" height="50" src="img/ico.png" alt="" />
+		<div class="dialogTop3">
+			<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+		</div>
+		<form action="" method="post" id="editForm">
+			<div class="editInfos3">
+				<div class="editDiv3"> 
+					<p class="editDiv3-left">购买数量</p>
+					<input type="number" name="" id="" value=""  class="editDiv3-center" />
+					<p class="editDiv3-right">颗</p>
+				</div>
+				<div class="editDiv3"> 
+					<p class="editDiv3-left">总共花费</p>
+					<input type="number" name="" id="" value=""  class="editDiv3-center" />
+					<p class="editDiv3-right">金币</p>
+				</div>
+				<div class="editDiv3"> 
+					<p class="editDiv3-left">账号密码</p>
+					<input type="password" name="" id="" value=""  class="editDiv3-center" />
+					<p class="editDiv3-right">金币</p>
+				</div>
+				<div>
+					<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn queding">确认</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!--可输入的结束-->
+	<!--有标题可输入-->
+	<div id="myModal5" class="reveal-modal1 animated ">
+		<img class="dialogIco3" width="50" height="50" src="img/ico.png" alt="" />
+		<div class="dialogTop3">
+			<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+		</div>
+		<form action="" method="post" id="editForm">
+			<div class="editInfos4">
+				
+				<p>是否确定雇佣？</p>
+				<p style="font-size: 14px;color: #B2BCD2;">雇佣该名矿工需要支付<span style="color: #02B3E5;">9999</span>金币</p>
+				<div class="editDiv3"> 
+					<p class="editDiv3-left">账号密码</p>
+					<input type="password" name="" id="" value=""  class="editDiv3-center" />
+					<p class="editDiv3-right">金币</p>
+				</div>
+				<div>
+					<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn queding">确认</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!--有标题可输入结束-->
+	
+	<!--有产品图已经输入框可输入-->
+	<div id="myModal6" class="reveal-modal6 animated ">
+		<img class="dialogIco3" width="50" height="50" src="img/ico.png" alt="" />
+		<div class="dialogTop3">
+			<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+		</div>
+		<form action="" method="post" id="editForm">
+			<div class="editdiv-top">
+				<div class="editdiv-topimg">
+					<img src="img/fruit_juice.png"/>
+				</div>
+					<div  class="editdiv-topbiaoti">
+						<div style="overflow: hidden;">
+							<p class="editdiv-mingcheng">果汁</p>
+							<p class="editdiv-cailiao">1000</p>
+						</div>
+						<div class="editdiv-bc">
+							<p>补充100体力值</p>
+						</div>
+					</div>
+				</div>
+					
+			<div class="editInfos4">
+				<div class="editDiv3"> 
+					<p class="editDiv3-left">购买数量</p>
+					<input type="number" name="" id="" value=""  class="editDiv3-center" />
+					<p class="editDiv3-right">颗</p>
+				</div>
+				<div class="editDiv3"> 
+					<p class="editDiv3-left">总共花费</p>
+					<input type="number" name="" id="" value=""  class="editDiv3-center" />
+					<p class="editDiv3-right">金币</p>
+				</div>
+				
+				<div class="editDiv3"> 
+					<p class="editDiv3-left">账号密码</p>
+					<input type="password" name="" id="" value=""  class="editDiv3-center" />
+					<p class="editDiv3-right">金币</p>
+				</div>
+				<div>
+					<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn queding">确认</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!--有产品图以及输入框结束-->
+	
+	
+	
+	
+	<!--<script src="http://www.jq22.com/js/jq.js"></script>-->
+</body>
+
+</html>
