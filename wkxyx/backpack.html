@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/hireminers.css">
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</head>
+	
+	<style>
+		#slider{
+			margin-top: 23.6vw;
+		}
+		.mui-col-xs-4 {
+			width: 50%;
+		}
+		.mui-table-view-cell.mui-active{
+			background:rgba(35,42,56,1);
+		}
+	</style>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title" >背包</h1>
+			<!-- <a class="sell_ore">我出售的矿石</a> -->
+		</header>
+		<div class="mui-content ">
+			<p class="backpack_title">金币</p>
+			<p class="backpack_money">9999999</p>
+			<div id="slider" class="mui-slider mui-fullscreen">
+				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted ">
+					<a class="mui-control-item mui-active" href="#item1mobile">
+						矿石
+					</a>
+					<a class="mui-control-item" href="#item2mobile">
+						消耗品
+					</a>
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active ">
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<ul class="mui-table-view" style="background:rgba(35,42,56,1);">
+										<li class="mui-table-view-cell commodity_m backpack_m">
+											<div class="commodity_up backpack_up">
+												<img src="img/diamond.png" id="zuanshi_img">
+												<span class="commodity_up_left">：200</span>
+												<a class="commodity_up_right big-links" data-reveal-id="myModal5" data-animation="none">上架</a>
+											</div>
+										</li>
+										
+									<li class="mui-table-view-cell commodity_m backpack_m"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-loading">
+									<div class="mui-spinner">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--有产品图已经输入框可输入-->
+		<div id="myModal6" class="reveal-modal6 animated consumption_tankuang ">
+			<img class="dialogIco3 consumption_tankuang_img"  src="img/ico.png" alt="" />
+			<form action="" method="post" id="editForm">
+				<div class="editdiv-top">
+					<div class="editdiv-topimg">
+						<img src="img/fruit_juice.png"/>
+					</div>
+						<div  class="editdiv-topbiaoti consumption_tankuang_imgifo">
+							<div style="overflow: hidden;">
+								<p class="editdiv-mingcheng">果汁</p>
+								<p class="editdiv-cailiao">1000</p>
+							</div>
+							<div class="editdiv-bc">
+								<p>补充100体力值</p>
+							</div>
+						</div>
+					</div>
+						
+				<div class="editInfos4 consumption_tankuang_con">
+					<div class="consumption_tankuang_left">
+						<ul>
+							<li>购买数量：</li>
+							<li>总价：</li>
+							<li>账户密码：</li>
+						</ul>
+					</div>
+					<div class="consumption_tankuang_right">
+						<ul>
+							<li>
+								<input type="name" name="name" id="name" value=""  class="editDiv3-center" />
+								<p class="shelves_info_unit">杯</p>
+								</li>
+							<li>	
+								<input type="phone" name="phone" id="phone" value=""  class="editDiv3-center" />
+								<p class="consumption_info_unit">金币</p>
+								</li>
+							<li>
+								<input type="password" name="password" id="password" value=""  class="editDiv3-center" />
+							</li>
+						</ul>
+					</div>	
+					<button type="button" class="submitBtn consumption_button close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn consumption_button queding">确认</button>
+					
+				</div>
+			</form>
+		</div>
+		<!--有产品图以及输入框结束-->	
+		<!--有标题可输入-->
+		<div id="myModal5" class="reveal-modal1 shelves_tankuang ">
+			<img class="dialogIco3 shelves_tankuang_img" src="img/ico.png" alt="" />
+			<form action="" method="post" id="editForm">
+				<div class="editInfos4 shelves_tankuang_con">
+					<div class="shelves_tankuang_left">
+						<ul>
+							<li>上架矿石：</li>
+							<li>上架数量：</li>
+							<li>单价：</li>
+							<li>手续费：</li>
+							<li>账户密码：</li>
+						</ul>
+					</div>
+					<div class="shelves_tankuang_right">
+						<ul>
+							<li>钻石</li>
+							<li>
+								<input type="" name="" id="" value=""  class="editDiv3-center" />
+								<p class="shelves_info_unit">颗</p>
+								</li>
+							<li>
+								<input type="" name="" id="" value=""  class="editDiv3-center" />
+								<p class="shelves_info_unit">金币</p>
+								</li>
+							<li>
+								<input type="" name="" id="" value=""  class="editDiv3-center" />
+								<p class="shelves_info_unit">金币</p>
+								</li>
+							<li>
+								<input type="password" name="" id="" value=""  class="editDiv3-center" />
+								</li>
+						</ul>
+					</div>	
+					<div class="shelves_button">
+						<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+						<button type="button" class="submitBtn queding">确认</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--有标题可输入结束-->
+	</body>
+
+</html>
+
+<script src="js/mui.min.js"></script>
+		<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+				var html2 =  '<li class="mui-table-view-cell commodity_m backpack_m"><div class="commodity_up backpack_up backpack_up_1"><img src="img/fruit_juice.png" id="zuanshi_img"><span class="commodity_up_left">&nbsp;：200</span><a class="commodity_up_right big-links" data-reveal-id="myModal5" data-animation="none">使用</a><a class="commodity_up_right backpack_up_right big-links" data-reveal-id="myModal6" data-animation="none">出售</a></div></li><li class="mui-table-view-cell commodity_m backpack_m"><div class="commodity_up backpack_up backpack_up_1"><img src="img/coffee.png" id="zuanshi_img"><span class="commodity_up_left">&nbsp;：200</span><a class="commodity_up_right big-links" data-reveal-id="myModal5" data-animation="none">使用</a><a class="commodity_up_right backpack_up_right big-links" data-reveal-id="myModal6" data-animation="none">出售</a></div></li><li class="mui-table-view-cell commodity_m backpack_m"></li>';
+				var item2 = document.getElementById('item2mobile');
+				document.getElementById('slider').addEventListener('slide', function(e) {
+					if (e.detail.slideNumber === 1) {
+						if (item2.querySelector('.mui-loading')) {
+							setTimeout(function() {
+								item2.querySelector('.mui-scroll').innerHTML = html2;
+							}, 100);
+						}
+					}
+				});
+				var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+				$('.mui-input-group').on('change', 'input', function() {
+					if (this.checked) {
+						sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+						//force repaint
+						sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+					}
+				});
+			})(mui);
+		</script>
+<script>document.write('<script src="//' + (location.host || 'localhost').split(':')[0] + ':35929/livereload.js?snipver=1"></' + 'script>')</script><script>document.addEventListener('LiveReloadDisconnect', function() { setTimeout(function() { window.location.reload(); }, 500); })</script></body>

@@ -41,7 +41,6 @@ video {
 	*zoom: 1
 }
 
-
 address,
 caption,
 cite,
@@ -79,8 +78,8 @@ option {
 }
 
 
-
 /*弹出框样式*/
+
 .demo {
 	width: 100%;
 	margin: 0 auto;
@@ -90,11 +89,12 @@ option {
 .demo a {
 	margin: 0 5px 20px;
 	background-color: #eee;
-	
 }
-a{
+
+a {
 	color: #000;
 }
+
 
 /*------------------- 华丽分割线 -----------------------*/
 
@@ -129,9 +129,11 @@ a{
 	box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.2);
 }
-#editForm{
-	    padding-bottom: 20px;
+
+#editForm {
+	padding-bottom: 20px;
 }
+
 .dialogTop {
 	width: 90%;
 	margin: 0 auto;
@@ -156,42 +158,38 @@ a{
 }
 
 .editInfos li {
-    width: 100%;
-    color: #fff;
-    /* margin: 8px auto auto; */
-    text-align: center;
-    /* margin: 15px; */
-    line-height: 42px;
-    min-height: 42px;
+	width: 100%;
+	color: #fff;
+	/* margin: 8px auto auto; */
+	text-align: center;
+	/* margin: 15px; */
+	line-height: 42px;
+	min-height: 42px;
 }
-
 
 .submitBtn {
-    /*background: rgba(2, 179, 229, 1);*/
-    /*box-shadow: 0px 4px 1px 0px rgb(0, 105, 134), inset 1px -1px 1px 0 rgba(0, 0, 0, 0.3);*/
-    /*border-radius: 22px;*/
-   border-radius: 20px;
-   min-height: 42px;
-    border: 0;
-    margin: 10px;
-    color: #fff;
-    width: calc(50% - 23px);
-    line-height: 32px;
+	/*background: rgba(2, 179, 229, 1);*/
+	/*box-shadow: 0px 4px 1px 0px rgb(0, 105, 134), inset 1px -1px 1px 0 rgba(0, 0, 0, 0.3);*/
+	/*border-radius: 22px;*/
+	border-radius: 20px;
+	min-height: 42px;
+	border: 0;
+	margin: 10px;
+	color: #fff;
+	width: calc(50% - 23px);
+	line-height: 32px;
 }
-.quxiao{
+
+.quxiao {
 	background: url(../img/botton_cancel.png) no-repeat center;
 }
-.queding{
+
+.queding {
 	background: url(../img/botton_ok.png) no-repeat center;
 }
+
+
 /*弹出框样式结束*/
-
-
-.top_height {
-	height: 44px;
-	width: 100%;
-	overflow: hidden;
-}
 
 .mui-height {
 	line-height: 44px;
@@ -309,129 +307,216 @@ a{
 	color: #FFFFFF;
 }
 
-
-.mine-ti{
+.mine-ti {
 	padding: 20px;
 	text-align: center;
 	font-size: 16px;
 }
 
-
-.mine-cen{
+.mine-cen {
 	overflow: hidden;
 	font-size: 14px;
 	padding: 10px 15px;
 }
 
-.mine-cen_left{
+.mine-cen_left {
 	color: #767E8E;
 	width: 50%;
 	float: left;
 }
-.cen-left_biao{
+
+.cen-left_biao {
 	float: left;
-    width: 50%;
+	width: 50%;
 }
-.cen-left_cen{
+
+.cen-left_cen {
 	color: #B2BCD2;
-	    float: left;
-    width: 50%;
+	float: left;
+	width: 50%;
 }
-.mine-center{
+
+.mine-center {
 	overflow: hidden;
 	margin: 10px 0;
 }
-.mine-cen_right{
+
+.mine-cen_right {
 	color: #767E8E;
 	font-size: 14px;
 	width: 50%;
 	float: left;
 }
 
-
-
-
-
-
-
-.record{
+.record {
 	overflow: hidden;
 	line-height: 29px;
 	padding: 10px 15px;
 	border-bottom: 1px solid #2E3646;
 }
-.record-topleft{
+
+.record-topleft {
 	width: 50%;
 	font-size: 14px;
 	color: #fff;
 	text-align: left;
-    float: left;
+	float: left;
 }
-.record-topright{
+
+.record-topright {
 	text-align: right;
 	width: 50%;
 	color: #767E8E;
 	font-size: 11px;
-    float: left;
+	float: left;
 }
-.record-p{
+
+.record-p {
 	float: right;
 }
-.record-bottom{
+
+.record-bottom {
 	color: #B2BCD2;
 }
 
 
+/*miner-show*/
 
-
-
-
-
-
-
-/*miner-show*/	
 .aui-product-list-img {
-    border-radius: 4px 4px 0 0;
-    overflow: hidden;
+	border-radius: 4px 4px 0 0;
+	overflow: hidden;
 }
 
 .aui-product-list-img {
-    width: 20%;
-    /*height: 80px;*/
-    float: left;
-    padding: 10px;
-    /* text-align: center;
-    line-height: 50%; */
+	width: 20%;
+	/* height: 80px; */
+	float: left;
+	text-align: center;
+	align-items: center;
 }
+
 .aui-product-list-text {
-    border-radius: 0 0 4px 4px;
-    margin-left: 80px;
-    padding: 20px 0px ;
+	border-radius: 0 0 4px 4px;
+	/* margin-left: 80px; */
+	padding: 20px 0px;
+	width: 80%;
 }
 
 .aui-product-list-price {
-    font-size: 14px;
-    color: #ffffff;
-    /*font-weight: 800;*/
+	font-size: 14px;
+	color: #ffffff;
+	/*font-weight: 800;*/
 }
+
 .aui-product-list-del-price {
-    /* padding-left: 10px; */
-    font-size: 12px;
-    /* margin-left: 4px; */
-    position: relative;
-    color: #4f66ac;
+	/* padding-left: 10px; */
+	font-size: 12px;
+	/* margin-left: 4px; */
+	position: relative;
+	color: #4f66ac;
 }
-.border{
+
+.border {
+	align-items: center;
 	padding: 10px 15px;
-    border-bottom: 1px solid #414f7a;
-    /* margin-bottom: 10px; */
+	border-bottom: 1px solid #414f7a;
+	/* margin-bottom: 10px; */
+	display: flex;
 }
-.wenzi{
-    padding: 5px 0px;
-    color: #4f66ac;
-    font-size: 14px;
+
+.wenzi {
+	padding: 5px 0px;
+	color: #4f66ac;
+	font-size: 14px;
 }
-.ziti{
-    padding-left:10px;
+
+.ziti {
+	padding-left: 10px;
 }
+
+
 /*miner-shou结束*/
+
+.miners_btn {
+	width: 40%;
+	margin-left: 5%;
+	line-height: 42px;
+	float: left;
+}
+
+.tc {
+	background: none;
+	border-radius: 22px;
+	color: #02B3E5;
+	border: 1px solid rgba(2, 179, 229, 1);
+}
+
+.tz {
+	background: rgba(2, 179, 229, 1);
+	border-radius: 22px;
+	border: 1px solid rgba(2, 179, 229, 1);
+	color: #fff;
+}
+
+.di {
+	overflow: hidden;
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+}
+
+.hrred-top {
+	padding: 10px;
+	overflow: hidden;
+	font-size: 14px;
+	color: #fff;
+	border-bottom: 1px solid #293040;
+}
+
+.hrred-top p {
+	color: #fff;
+}
+
+.hire ul li {
+	height: 38.66vw;
+	/* outline: 1px solid red; */
+	margin: 0 4vw;
+}
+
+.hire_mall .hire_mall_one {
+	width: auto;
+	height: auto;
+}
+
+.hired_k {
+	background: #D96E61 !important;
+}
+
+.aui-product-list-img img {
+	width: 50px;
+}
+
+.tili{
+	width: 50%;
+	float: left;
+	color: #B2BCD2;
+}
+
+
+.mine-wai{
+	    overflow: hidden;
+    background: #293040;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.details-biao{
+	padding: 10px 15px;
+	background: #293040;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 20px;
+}
+

@@ -9,23 +9,22 @@
 
 		<!--标准mui.css-->
 		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/hireminers.css">
-		<link rel="stylesheet" href="css/reveal.css">	
 		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="js/jquery.reveal.js"></script>
 	</head>
-	
 	<style>
-			.mui-table-view{
-				position: initial;
-			}
-			.editInfos .editInfos_info{
-				font-size:14px;
-				font-family:PingFang-SC-Medium;
-				font-weight:500;
-				color:rgba(178,188,210,1);
-			}
-		</style>	
+		.mui-table-view{
+			position: initial;
+		}
+		.editInfos .editInfos_info{
+			font-size:14px;
+			font-family:PingFang-SC-Medium;
+			font-weight:500;
+			color:rgba(178,188,210,1);
+		}
+	</style>	
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
@@ -36,7 +35,7 @@
 		
 		<div class="mui-content">
 			<div id="slider" class="mui-slider">
-				<ul class="mui-table-view" style="background:rgba(35,42,56,1);">
+				<ul style="background:rgba(35,42,56,1);">
 					<li class="mui-table-view-cell commodity_m">
 						<div class="commodity_top">
 							<img src="img/diamond.png" id="zuanshi_img">
@@ -44,7 +43,7 @@
 							<span class="commodity_top_right" >单价：100金币</span>
 						</div>
 						<div class="commodity_up">
-							<a class="commodity_up_right big-link" data-reveal-id="myModal" data-animation="none">下架</a>
+							<a href="#" class="commodity_up_right big-link" data-reveal-id="myModal" data-animation="none">下架</a>
 						</div>
 					</li>
 					<li class="mui-table-view-cell commodity_m">
@@ -54,7 +53,7 @@
 							<span class="commodity_top_right" >单价：100金币</span>
 						</div>
 						<div class="commodity_up">
-							<a class="commodity_up_right" data-reveal-id="myModal" data-animation="none" >下架</a>
+							<a href="#" class="commodity_up_right big-link" data-reveal-id="myModal" data-animation="none" >下架</a>
 						</div>
 					</li>
 					<li class="mui-table-view-cell commodity_m">
@@ -64,7 +63,7 @@
 							<span class="commodity_top_right" >单价：100金币</span>
 						</div>
 						<div class="commodity_up">
-							<a class="commodity_up_right" data-reveal-id="myModal" data-animation="none">下架</a>
+							<a href="#" class="commodity_up_right big-link" data-reveal-id="myModal" data-animation="none">下架</a>
 						</div>
 					</li>
 					<li></li>
@@ -74,16 +73,13 @@
 		
 		
 		<!--提示通用-->
-		<div id="myModal" class="reveal-modal animated ">
-			<img class="dialogIco" width="50" height="50" src="img/ico.png" alt="" />
-			<div class="dialogTop">
-				<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
-			</div>
+		<div id="myModal" class="reveal-modal sell_tankuang ">
+			<img class="dialogIco sell_tankuang_img" src="img/ico.png" alt="" />
 			<form action="" method="post" id="editForm">
-				<ul class="editInfos">
-					<li>是否升级矿井</li>
-					<li class="editInfos_info">矿石下架不会返还手续费</li>
-					<li>
+				<ul class="editInfos sell_tankuang_ul">
+					<li class="sell_tankuang_is">是否升级矿井</li>
+					<li class="editInfos_info sell_tankuang_info">矿石下架不会返还手续费</li>
+					<li class="sell_button">
 						<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
 						<button type="button" class="submitBtn queding">确认</button>
 						<!--<input type="button" value=""  />

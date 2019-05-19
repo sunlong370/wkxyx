@@ -8,8 +8,11 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/mui.min.css">
 		<link rel="stylesheet" href="css/hireminers.css">
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
 	</head>	
 	<body>
 		<header class="mui-bar mui-bar-nav">
@@ -33,8 +36,37 @@
 				<span>价格：100金币/h</span>
 				<span style="text-align: right;">出租：5h</span>
 			</div>
-			<button type="button" class="miners_button sminers_button">挖矿</button>
+			<a href="#" class="miners_button sminers_button big-link"  data-reveal-id="myModal5" data-animation="none">挖矿</a>
 		</div>
+		
+		<!--有标题可输入-->
+		<div id="myModal5" class="reveal-modal1 shelvesminers_tankuang ">
+			<img class="dialogIco3 shelvesminers_tankuang_img" src="img/ico.png" alt="" />
+			<form action="" method="post" id="editForm">
+				<div class="editInfos4 shelvesminers_tankuang_con">
+					
+					<p class="shelvesminers_tankuang_is">是否确定雇佣？</p>
+					<p class="shelvesminers_tankuang_info">雇佣该名矿工需要支付<span style="color: #02B3E5;">9999</span>金币</p>
+					<div class="shelvesminers_tankuang_left">
+						<ul>
+							<li>账户密码：</li>
+						</ul>
+					</div>
+					<div class="shelvesminers_tankuang_right">
+						<ul>
+							<li>
+							<input type="password" name="" id="" value=""  class="editDiv3-center" />
+							</li>
+						</ul>
+					</div>	
+					<div>
+						<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+						<button type="button" class="submitBtn queding">确认</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--有标题可输入结束-->
 	</body>
 </html>
 

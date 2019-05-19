@@ -8,8 +8,11 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/mui.min.css">
 		<link rel="stylesheet" href="css/hireminers.css">
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
 	</head>	
 	<body>
 		<header class="mui-bar mui-bar-nav">
@@ -19,16 +22,16 @@
 		</header>
 		<div class="mui-content">
 			<div id="slider" class="mui-slider">
-				<ul class="mui-table-view" style="background:rgba(35,42,56,1);">
+				<ul  style="background:rgba(35,42,56,1);">
 					<li class="mui-table-view-cell consumption_m">
 						<img src="img/fruit_juice.png" class="consumption_img">
 						<div class="consumption_top">
 							<span class="consumption_top_left">果汁</span>
-							<span class="consumption_top_right" >单价：1000</span>
+							<span class="consumption_top_right">单价：1000</span>
 						</div>
 						<div class="consumption_up">
 							<span class="consumption_up_left">补充100点体力</span>
-							<a class="consumption_up_right">购买</a>
+							<a href="#" class="consumption_up_right big-link" data-reveal-id="myModal6" data-animation="none">购买</a>
 						</div>
 					</li>
 					<li class="mui-table-view-cell consumption_m">
@@ -39,13 +42,65 @@
 						</div>
 						<div class="consumption_up">
 							<span class="consumption_up_left">补充100点体力</span>
-							<a class="consumption_up_right">购买</a>
+							<a href="#" class="consumption_up_right big-link"  data-reveal-id="myModal6" data-animation="none">购买</a>
 						</div>
 					</li>
 					<li></li>
 				</ul>
 			</div>
 		</div>
+		
+		
+		<!--有产品图已经输入框可输入-->
+		<div id="myModal6" class="reveal-modal6 animated consumption_tankuang ">
+			<img class="dialogIco3 consumption_tankuang_img"  src="img/ico.png" alt="" />
+			<form action="" method="post" id="editForm">
+				<div class="editdiv-top">
+					<div class="editdiv-topimg">
+						<img src="img/fruit_juice.png"/>
+					</div>
+						<div  class="editdiv-topbiaoti consumption_tankuang_imgifo">
+							<div style="overflow: hidden;">
+								<p class="editdiv-mingcheng">果汁</p>
+								<p class="editdiv-cailiao">1000</p>
+							</div>
+							<div class="editdiv-bc">
+								<p>补充100体力值</p>
+							</div>
+						</div>
+					</div>
+						
+				<div class="editInfos4 consumption_tankuang_con">
+					<div class="consumption_tankuang_left">
+						<ul>
+							<li>购买数量：</li>
+							<li>总价：</li>
+							<li>账户密码：</li>
+						</ul>
+					</div>
+					<div class="consumption_tankuang_right">
+						<ul>
+							<li>
+								<input type="name" name="name" id="name" value=""  class="editDiv3-center" />
+								<p class="shelves_info_unit">杯</p>
+								</li>
+							<li>	
+								<input type="phone" name="phone" id="phone" value=""  class="editDiv3-center" />
+								<p class="consumption_info_unit">金币</p>
+								</li>
+							<li>
+								<input type="password" name="password" id="password" value=""  class="editDiv3-center" />
+							</li>
+						</ul>
+					</div>	
+					<button type="button" class="submitBtn consumption_button close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn consumption_button queding">确认</button>
+					
+				</div>
+			</form>
+		</div>
+		<!--有产品图以及输入框结束-->
+		
 	</body>
 
 </html>

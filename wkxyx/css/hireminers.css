@@ -61,18 +61,14 @@ body{
 }
 html,#slider,.mui-content{  
 	width: 100%;  
-	height: 100%;  
-	background:rgba(35,42,56,1);
-}  
-body{
-	width: 100%;  
-	height: 100%; 
 	background:rgba(35,42,56,1);
 }  
 .mui-slider-group{  
    height: calc(100% - 45px);  
 }  
-
+/* .mui-slider{
+	position: initial;
+} */
 .mui-col-xs-4 {
 	width: 25%;
 }
@@ -175,6 +171,7 @@ body{
 	height:6.13vw;
 	line-height: 6.13vw;
 	float: left;
+	    font-size: 14px;
 	color:rgba(178,188,210,1);
 }
 #zuanshi_img{
@@ -198,6 +195,86 @@ body{
 	color:rgba(2,179,229,1);
 }
 
+.merchant_tankuang{
+	width: 74.4vw;
+	height:69.6vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 69.6vw;
+	left: 0;
+	top:57.86vw;
+	min-height: 0;
+}
+.merchant_tankuang .merchant_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.merchant_tankuang .merchant_tankuang_con{
+	margin-top: 13.06vw;
+	padding: 0;
+}
+.merchant_tankuang_con .merchant_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* margin-bottom: 4vw; */
+	/* outline: 1px solid red; */
+}
+.merchant_tankuang_con .merchant_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 5vw;
+	text-align: right;
+}
+.merchant_tankuang_con .merchant_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.merchant_tankuang_con .merchant_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 5vw;
+	font-size:14px;
+	
+}
+.merchant_tankuang_con .merchant_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	color:rgba(2,179,229,1);
+	
+}
+.merchant_info_unit{
+	position: absolute;
+	right:7vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.merchant_button button{
+	margin-top: 2vw;
+}
+
 /*********************** shelves  *****************************/
 
 	
@@ -211,9 +288,8 @@ body{
 	display: block;
 }
 .shelves_up {
-	height: 8.27vw;
-	margin: 4.53vw 0;
-	/* outline: 1px solid red; */
+	height: 15.8vw;
+    padding-top: 4.53vw;
 }
 .shelves_up .shelves_up_left {
 	width:15vw;
@@ -237,6 +313,90 @@ body{
 	font-weight:500;
 	color:rgba(2,179,229,1);
 }
+
+.shelves_tankuang{
+	width: 74.4vw;
+	height:89.6vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 89.6vw;
+	left: 0;
+	top:48vw;
+}
+.shelves_tankuang .shelves_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.shelves_tankuang .shelves_tankuang_con{
+	margin-top: 13.06vw;
+	padding: 0;
+}
+.shelves_tankuang_con .shelves_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* margin-bottom: 4vw; */
+	/* outline: 1px solid red; */
+}
+.shelves_tankuang_con .shelves_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 4.53vw;
+	text-align: right;
+}
+.shelves_tankuang_con .shelves_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.shelves_tankuang_con .shelves_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 4.53vw;
+	font-size:14px;
+	
+}
+.shelves_tankuang_con .shelves_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	
+}
+.shelves_info_unit{
+	position: absolute;
+	right:7vw;
+	width:28px;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.shelves_button button{
+	margin-top: 2vw;
+}
+
+
+
+
 
 /*************************   hire_merchants   **************************/
 .hire ul li {
@@ -336,6 +496,7 @@ body{
 .hire_right .hire_mall .hire_fire {
 	width: 18.46vw;
 	height: 4.26vw;
+	margin-top: 0.5vw;
 	background:rgba(2,179,229,1);
 }
 .hire_right .hire_mall .hire_name {
@@ -344,11 +505,13 @@ body{
 .hire_right .hire_mall .tobehired {
 	width: 14.53vw;
 	height: 4.26vw;
+	margin-top: 0.5vw;
 	background:rgba(217,110,97,0.9);
 }
 .hire_right .hire_mall .toshelves {
 	width: 14.53vw;
 	height: 4.26vw;
+	margin-top: 0.5vw;
 	background:rgba(118,126,142,1);
 }
 .hire_right .hire_mall .hire_button {
@@ -441,6 +604,10 @@ body{
 	width:92vw;
 	opacity: 0.7;
 }
+.miner_w{
+	margin: 0;
+	clear: both;
+}
 .miners_info{
 	margin: 6.93vw 4vw 0 4vw;
 }
@@ -459,7 +626,7 @@ body{
 	margin:	21.06vw 4vw 0;
 	width: 92vw;
 	height:11.73vw;
-	line-height:9vw;
+	line-height:11.73vw;
 	border-radius: 6vw;
 	background:rgba(2,179,229,1);
 	border:0;
@@ -467,6 +634,8 @@ body{
 	font-family:PingFang-SC-Medium;
 	font-weight:500;
 	color:rgba(255,255,255,1);
+	display: block;
+	text-align: center;
 	
 }
 .miners_level{
@@ -497,6 +666,15 @@ body{
 .miners_back_img5{
 	background: url(../img/bg_xiyou@2x.png);
 }
+.miners_name a{
+	outline: 1px solid blue;
+	width: 4.53vw;
+	height:4.53vw;
+	display: block;
+	position: relative;
+	top:-5.33vw;
+	left:60vw;
+}
 
 /******************     shelvesminers     ************************/
 .miners_kuang{
@@ -510,8 +688,112 @@ body{
 	margin-bottom: 3.2vw;
 }
 .sminers_button{
-	margin-top:39vw;
+	margin:25vw 0 19vw 0;
 }
+
+.shelvesminers_tankuang{
+	width: 74.4vw;
+	height:69.6vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 69.6vw;
+	left: 0;
+	top:48vw;
+	min-height: 0;
+	/* max-height: 0; */
+}
+.shelvesminers_tankuang .shelvesminers_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.shelvesminers_tankuang .shelvesminers_tankuang_con{
+	padding: 0;
+	margin-top: 11.73vw;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* outline: 1px solid red; */
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 4.53vw;
+	text-align: right;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 4.53vw;	
+	font-size:14px;
+	
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	
+}
+.shelvesminers_info_unit{
+	position: absolute;
+	right:7vw;
+	width:28px;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.shelvesminers_button button{
+	margin-top: 2vw;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_is{
+	text-align: center;
+	height:5.33vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 3.46vw;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_info{
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	text-align: center;
+	margin-bottom: 6.13vw;
+}
+
+
+
 /******************     shelvesminers     ************************/
 .commodity_up .consumption_info{
 	
@@ -587,11 +869,123 @@ body{
 	float: left;
 	margin: 4vw 5.06vw 5.06vw 0;
 }
+
+
+.consumption_tankuang{
+	width: 74.4vw;
+	height:90.66vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 90.66vw;
+	left: 0;
+	top:46.4vw;
+	min-height: 0;
+	/* max-height: 0; */
+}
+.consumption_tankuang .consumption_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.consumption_tankuang .consumption_tankuang_imgifo{
+	margin-top: 11vw;
+}
+.consumption_tankuang .consumption_tankuang_con{
+	padding: 0;
+
+.consumption_tankuang .consumption_tankuang_con{
+	padding: 0;
+}}
+.consumption_tankuang_con .consumption_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* outline: 1px solid red; */
+}
+.consumption_tankuang_con .consumption_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 4.53vw;
+	text-align: right;
+}
+.consumption_tankuang_con .consumption_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.consumption_tankuang_con .consumption_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 4.53vw;	
+	font-size:14px;
+	
+}
+.consumption_tankuang_con .consumption_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	margin-bottom: 0px;
+	padding: 0;
+	
+}
+.consumption_info_unit{
+	position: absolute;
+	right:7vw;
+	width:28px;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.consumption_button{
+	margin-top: 5vw;
+}
+.consumption_tankuang_con .consumption_tankuang_is{
+	text-align: center;
+	height:5.33vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 3.46vw;
+}
+.consumption_tankuang_con .consumption_tankuang_info{
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	text-align: center;
+	margin-bottom: 6.13vw;
+}
+
+
 /**********************   meminers    ************************/
 .meminers ul li {
 	height:21.33vw;
 	/* outline: 1px solid red; */
 	margin:0 4vw;
+	overflow: hidden;
 }
 .meminers_left{
 	width: 11.73vw;
@@ -602,14 +996,14 @@ body{
 .meminers_left img{
 	width: 11.73vw;
 	height: 14.4vw;
-	margin: 3.46vw 0;
+	margin: 3.46vw 0 0 0;
 	padding:0 2.66vw 0 0;
 }
 .meminers_right{
 	float: left;
 	width:74.93vw;
-	height: 18.13vw;
-	margin: 4.26vw 0;
+	height: 16.5vw;
+	margin: 4.26vw 0 0 0;
 	/* outline: 1px solid blue; */
 	
 }
@@ -624,7 +1018,7 @@ body{
 	float: left;
 }
 .meminers_mall .meminers_mall_one{
-	width: 15vw;
+	width: 17vw;
 	height:5.33vw;
 	/* outline: 1px solid red; */
 	font-size:14px;
@@ -632,7 +1026,6 @@ body{
 	font-weight:500;
 	color:rgba(255,255,255,1);
 	line-height:5.33vw;
-	margin-right:2.66vw;
 }
 .meminers_mall .meminers_mall_two{
 	width:14.33vw;
@@ -655,7 +1048,7 @@ body{
 	float:left;
 }
 .meminers_introduce{
-	margin-top: 2.66vw;
+	margin-top: 1vw;
 }
 .meminers_introduce span{
 	display: block;
@@ -686,8 +1079,244 @@ body{
 	background:rgba(217,110,97,0.9);
 }
 
+/**************************** sell_diamonds **********/
+
+.sell_tankuang{
+	width: 74.4vw;
+	height:56vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 56vw;
+	left: 0;
+	top:45vw;
+}
+.sell_tankuang .sell_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.sell_tankuang .sell_tankuang_ul{
+	height:42.93vw;
+	margin-top: 13.07vw;
+	padding: 0;
+}
+.sell_tankuang .sell_tankuang_is{
+	height:5.86vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.86vw;
+	min-height: 0;
+}
+.sell_tankuang .sell_tankuang_info{
+	margin-top: 3.46vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	/* min-height: 0; */
+}
+
+.sell_tankuang .sell_tankuang_ul  li input{
+	width: 56vw;
+    height: 5.33vw;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    line-height: 5.33vw;
+    background-color: #222937;
+    border: 0;
+    border-bottom: 1px solid #2E3646;
+    margin-bottom: 0px;
+    padding: 4vw 5.2vw;
+    /* outline: 1px solid red; */
+    margin: 0 8vw;
+	text-align: center;
+	color:rgba(118,126,142,1);
+	
+}
+.sell_tankuang_miners{
+	height: 48vw;
+	background-size: 74.4vw 48vw;
+	top:45vw;
+}
 /****************     miningrecords    *******************/
 .commodity_top  .miningrecords{
 	width:38vw;
 	margin-top: 0.3vw;
+}
+
+/*****************                 ************************/
+.sell_ore_color{
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+/****************     minersdetails    ***************/
+.miners_detailsun{
+	width: 92vw;
+	margin: 20.53vw 4vw 0;
+}
+.miners_detailsun a{
+	width: 44vw;
+	height:11.73vw;
+	border-radius:10vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	float: left;
+	display: block;
+	text-align: center;
+	line-height:11.73vw;
+	
+}
+.miners_detailsun .miners_detailsun_left{
+	border:1px solid rgba(2,179,229,1);
+	background:rgba(35,42,56,1);
+	color:rgba(2,179,229,1);
+	margin-right: 4vw;
+	margin-bottom: 9.6vw;
+}
+.miners_detailsun .miners_detailsun_right{
+	border:1px solid rgba(2,179,229,1);
+	background:rgba(2,179,229,1);
+	color:rgba(255,255,255,1);
+	margin-bottom: 9.6vw;
+}
+
+.minersdetails_tankuang{
+	width: 74.4vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw auto;
+	left: 0;
+	top:57.86vw;
+	min-height: 0;
+}
+.minersdetails_tankuang .minersdetails_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.minersdetails_tankuang .minersdetails_tankuang_ul{
+	width: 59.73vw;
+	/* outline: 1px solid red; */
+	margin:0 7.2vw;
+	padding: 0;
+
+}
+.minersdetails_tankuang .minersdetails_tankuang_ul li{
+	text-align: initial;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+}
+.minersdetails_tankuang_cha{
+	top: -3vw;
+    right: -3vw;
+}
+.minersdet_tankuang{
+	width: 74.4vw;
+	height:49.86vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 49.86vw;
+	left: 0;
+	top:65vw;
+}
+.minersdet_tankuang .minersdet_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.minersdet_tankuang .minersdet_tankuang_left img{
+	width: 10.66vw;
+	height:10.66vw;
+}
+.minersdet_tankuang_cha{
+	top: -3vw;
+    right: -3vw;
+}
+/****************      backpack        ********************/
+.backpack_title{
+	margin-top: 3.73vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	text-align: center;
+}
+.backpack_money{
+	height:8.8vw;
+	font-size:24px;
+	font-family:PingFang-SC-Bold;
+	font-weight:bold;
+	color:rgba(2,179,229,1);
+	line-height:8.8v;
+	text-align: center;
+}
+.backpack_m {
+	/* outline: 1px solid red; */
+	height:16vw;	
+}
+.backpack_m .backpack_up{
+	margin-top: 4.53vw;
+}
+.backpack_up .backpack_up_right{
+	border:1px solid rgba(65,70,79,1);
+	color:rgba(178,188,210,1);
+	margin-right: 2.66vw;
+}
+.backpack_m .backpack_up_1{
+	/* margin: 1.86vw 0; */
+}
+.backpack_m .backpack_up_1 img#zuanshi_img{
+	width:10.06vw;
+	height:12.66vw;
+	margin: -2.7vw 0 1.86vw 0;
+}
+
+/**************               ******************/
+.choose_tankuang{
+	height:48vw;
+	background-size: 74.4vw 48vw;
+}
+.choose_tankuang .choose_tankuang_is{
+	margin-bottom: 5vw;
+}
+/************       public_mineral_pool     ********************/
+.mineral_pool{
+	height:4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+.mineral_pool_title{
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+}
+.pool_font_color p{
+	color:rgba(178,188,210,1);
+}
+.pool_hr{
+	width: 98%; 
+	margin:0 0 0 4vw;
+	border: 0;
+	height: 1px;
+	background:rgba(28,34,46,1);
 }

@@ -11,7 +11,6 @@
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/mui.min.css">
 		<link rel="stylesheet" href="css/hireminers.css">
-		
 		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" src="js/jquery.reveal.js"></script>
 	</head>	
@@ -24,12 +23,12 @@
 		
 		<div class="mui-content">
 			<div id="slider" class="mui-slider">
-				<ul class="mui-table-view" style="background:rgba(35,42,56,1);">
+				<ul style="background:rgba(35,42,56,1);">
 					<li class="mui-table-view-cell shelves">
 						<div class="shelves_up">
 							<img src="img/diamond.png" id="zuanshi_img">
 							<span class="shelves_up_left">：200</span>
-							<a class="shelves_up_right big-links" data-reveal-id="myModal5" data-animation="none">上架</a>
+							<a href="#" class="shelves_up_right big-links" data-reveal-id="myModal5" data-animation="none">上架</a>
 						</div>
 					</li>
 					
@@ -40,22 +39,40 @@
 		
 		
 		<!--有标题可输入-->
-		<div id="myModal5" class="reveal-modal1 animated ">
-			<img class="dialogIco3" width="50" height="50" src="img/ico.png" alt="" />
-			<div class="dialogTop3">
-				<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
-			</div>
+		<div id="myModal5" class="reveal-modal1 shelves_tankuang ">
+			<img class="dialogIco3 shelves_tankuang_img" src="img/ico.png" alt="" />
 			<form action="" method="post" id="editForm">
-				<div class="editInfos4">
-					
-					<p>是否确定雇佣？</p>
-					<p style="font-size: 14px;color: #B2BCD2;">雇佣该名矿工需要支付<span style="color: #02B3E5;">9999</span>金币</p>
-					<div class="editDiv3"> 
-						<p class="editDiv3-left">账号密码</p>
-						<input type="" name="" id="" value=""  class="editDiv3-center" />
-						<p class="editDiv3-right">金币</p>
+				<div class="editInfos4 shelves_tankuang_con">
+					<div class="shelves_tankuang_left">
+						<ul>
+							<li>上架矿石：</li>
+							<li>上架数量：</li>
+							<li>单价：</li>
+							<li>手续费：</li>
+							<li>账户密码：</li>
+						</ul>
 					</div>
-					<div>
+					<div class="shelves_tankuang_right">
+						<ul>
+							<li>钻石</li>
+							<li>
+								<input type="name" name="" id="name" value="name"  class="editDiv3-center" />
+								<p class="shelves_info_unit">颗</p>
+								</li>
+							<li>
+								<input type="money" name="money" id="money" value=""  class="editDiv3-center" />
+								<p class="shelves_info_unit">金币</p>
+								</li>
+							<li>
+								<input type="moneys" name="moneys" id="moneys" value=""  class="editDiv3-center" />
+								<p class="shelves_info_unit">金币</p>
+								</li>
+							<li>
+								<input type="password" name="" id="" value=""  class="editDiv3-center" />
+								</li>
+						</ul>
+					</div>	
+					<div class="shelves_button">
 						<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
 						<button type="button" class="submitBtn queding">确认</button>
 					</div>

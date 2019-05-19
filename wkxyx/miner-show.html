@@ -1,9 +1,123 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<meta charset="UTF-8">
-		<title></title>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/register.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
+
+	<style>
+		html,
+		#slider,
+		.mui-content {
+			width: 100%;
+			height: 100%;
+			background: rgba(35, 42, 56, 1);
+		}
+		
+		.mui-bar-nav~.mui-content {
+			padding-top: 13.33vw;
+		}
+		
+		.miners_user_right {
+			height: auto !important;
+			padding: 30px;
+		}
+		
+		.miners_user .miners_user_left img {
+			margin: 0 8.8vw;
+		}
+		
+		.miners_user .miners_user_left {
+			height: auto;
+		}
+		.miners_btn{
+			width: 40%;
+			margin-left: 5%;
+			line-height: 42px;
+			float: left;
+		}
+		.tc{
+			background: none;
+			border-radius:22px;
+			color: #02B3E5;
+			border:1px solid rgba(2,179,229,1);
+		}
+		.tz{
+			background:rgba(2,179,229,1);
+			border-radius:22px;
+			border:1px solid rgba(2,179,229,1);
+			color: #fff;
+		}
+		.di{
+		    overflow: hidden;
+		    width: 100%;
+		    position: absolute;
+		    bottom: 40px;
+		}
+		 p{
+			color: #B2BCD2;
+		}
+	</style>
+
 	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">矿工详情</h1>
+			<a class="sell_ore" style="color:rgba(178,188,210,1);	">雇佣说明</a>
+		</header>
+
+		<div class="mui-content miners">
+			<p class="miners_name">1号矿工</p>
+			<p class="miners_status">空闲状态</p>
+			<div class="miners_user">
+				<div class="miners_user_left">
+					<img src="img/worker.png">
+				</div>
+				<div class="miners_user_right">
+					<p>体力：80</p>
+					<p>速度：100</p>
+					<p>熟练度：100</p>
+					<p>已挖：5h</p>
+				</div>
+			</div>
+			<div class="underline_w"></div>
+
+			<div class="mine-biaoti">
+				剩余矿石储量
+			</div>
+			<div>
+				<div class="mine_cl ">
+					<img src="img/diamond.png" />
+					<p><span>:</span>200</p>
+				</div>
+				<div class="mine_cl">
+					<img src="img/gold.png" />
+					<p><span>:</span>100</p>
+				</div>
+				<div class="mine_cl">
+					<img src="img/silver.png" />
+					<p><span>:</span>400</p>
+				</div>
+				<div class="mine_cl">
+					<img src="img/iron.png" />
+					<p><span>:</span>300</p>
+				</div>
+			</div>
+<div class="di">
+	<button type="button" class="miners_btn tc">踢出矿井</button>
+			<button type="button" class="miners_btn tz">停止挖矿</button>
+</div>
+			
+		</div>
 	</body>
+
 </html>
