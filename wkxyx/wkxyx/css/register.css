@@ -1,0 +1,693 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #232A38;
+	font-family:"PingFangSC-Regular, sans-serif";
+}
+.mui-bar{
+	background-color:#2E3646;
+}
+.mui-icon{
+	color: #838C9E ;
+}
+.mui-bar-nav {
+	-webkit-box-shadow:0 1px 6px #000000;
+	box-shadow: 0 1px 6px #000000;
+}
+.form-item{
+	position:relative;
+	padding: 0 5vw;
+	background-color: #232A38;	
+}
+.form-item input{
+	width: 100%;
+    height:15.73vw;
+    line-height: 15.73vw;
+    border: none;
+    border-bottom: 1px solid  #2E3646;
+    font-size: 16px;
+	color:#FFF;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	background-color: #232A38;
+	padding-top: 6vw;
+}
+.form-item img {
+	position: absolute;
+    width: 4.5vw;
+    top: 45%;
+    right: 10vw;
+	overflow: auto;
+}
+.img{
+	border: none;
+}
+.mui-title{
+	color: #FFF;
+	font-weight: 300;
+}
+.form-item .send-code {
+    position: absolute;
+    top: 30%;
+    right: 7vw;
+    height: 13.3vw;
+    line-height: 40px;
+    font-size: 14px;
+    color: #3b7db4;
+    margin: 0;
+}
+input::-webkit-input-placeholder {
+	color: #41464F;
+	font-size: 16px;
+}
+
+.mui-btn-block{
+	background-color: #303D4C;
+    border: 1px solid #303D4C;
+    width: 90vw;
+    margin: 0 5vw;
+    height: 11.73vw;
+    line-height: 12px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin-top: 5.6vw;
+}
+.go-tips {
+	height:5.33vw;
+    margin-top: 64.26vw;
+    text-align: center;
+    font-size: 14px;
+    color: #41464F;
+	margin-bottom: 8vw;
+}
+.go-tips a{
+	color:#3b7db4;
+}
+
+/*toast信息提示*/  
+.mui-toast-container {bottom: 50% !important;}  
+.mui-toast-message {background: url(/app/themes/default/images/toast.png) no-repeat center 10px #000; opacity: 0.6; color: #fff; width: 200px; padding: 10px 5px 10px 5px; font-size: 12px;}  
+
+.mui-bar{
+		height:13.33vw;
+}
+.mui-bar .mui-title{
+	height:13.33vw;
+	line-height: 13.33vw;
+}
+.mui-bar-nav.mui-bar .mui-icon{
+	margin-right: -4.26vw;
+	margin-left: -4.26vw;
+	padding-right: 4.26vw;
+	padding-left: 4.26vw;
+}
+.mui-bar .mui-icon{
+	padding-top: 4.26vw;
+	padding-bottom: 4.26vw;
+	font-size: 6vw;
+}
+
+
+/********************    merchant 矿石商人   *************************/
+
+.sell_ore{
+	position: relative;
+	top:4vw;
+	float: right;
+	right:2vw;
+	display: block;
+	/* outline: 1px solid red; */
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+	
+}
+.commodity_m{
+	height:21.33vw;
+	margin: 0 4vw;
+	/* outline: 1px solid red; */
+}
+
+.commodity_m span{
+	display: block;
+}
+.commodity_top{
+	height:6.6vw;
+	margin-top:3.73vw;
+	/* outline: 1px solid blue; */
+}
+.commodity_top .commodity_top_left{
+	width: 43vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	float: left;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+}
+.commodity_top .commodity_top_right{
+	width:24.86vw;
+	height:4.53vw;
+	float: right;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+	text-align: right;
+}
+.commodity_up {
+	height: 8.27vw;
+	margin-bottom: 3.73vw;
+	/* outline: 1px solid red; */
+}
+.commodity_up .commodity_up_left , .commodity_top .commodity_up_left{
+	width:15vw;
+	height:6.13vw;
+	line-height: 6.13vw;
+	float: left;
+	color:rgba(178,188,210,1);
+}
+#zuanshi_img{
+	width: 7.46vw;
+	height:6.13vw;
+	float: left;
+	margin-right: 2vw;
+}
+
+.commodity_up .commodity_up_right{
+	float: right;
+	width:18.66vw;
+	height:7.2vw;
+	text-align: center;
+	line-height: 7.2vw;
+	border-radius:5vw;
+	border:1px solid rgba(2,179,229,1);
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+}
+
+/*********************** shelves  *****************************/
+
+	
+.shelves{
+	height:16vw;
+	margin: 0 4vw;
+	/* outline: 1px solid red; */
+}
+
+.shelves span{
+	display: block;
+}
+.shelves_up {
+	height: 8.27vw;
+	margin: 4.53vw 0;
+	/* outline: 1px solid red; */
+}
+.shelves_up .shelves_up_left {
+	width:15vw;
+	height:6.13vw;
+	line-height: 6.13vw;
+	float: left;
+	color:rgba(178,188,210,1);
+}
+
+
+.shelves_up .shelves_up_right{
+	float: right;
+	width:18.66vw;
+	height:7.2vw;
+	text-align: center;
+	line-height: 7.2vw;
+	border-radius:5vw;
+	border:1px solid rgba(2,179,229,1);
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+}
+
+/*************************   hire_merchants   **************************/
+.hire ul li {
+	height:26.66vw;
+	/* outline: 1px solid red; */
+	margin:0 4vw;
+}
+.hire_left{
+	width: 11.73vw;
+	/* outline: 1px solid red; */
+	float: left;
+	margin-right:2.66vw;
+}
+.hire_left img{
+	width: 11.73vw;
+	height: 14.4vw;
+	margin: 6.13vw 0;
+	padding:0 2.66vw 0 0;
+}
+.hire_right{
+	float: left;
+	width:74.93vw;
+	height: 18.13vw;
+	margin: 4.26vw 0;
+	/* outline: 1px solid blue; */
+	
+}
+.hire_right p{
+	margin-bottom: 0;
+}
+.hire_mall{
+	width:74.93vw;
+}
+.hire_mall span{
+	display: block;
+	float: left;
+}
+.hire_mall .hire_mall_one{
+	width: 39vw;
+	height:5.33vw;
+	/* outline: 1px solid red; */
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-right:2.66vw;
+}
+.hire_mall .hire_mall_two{
+	width:9.33vw;
+	height: 5.33vw;
+	background:rgba(2,179,229,1);
+	border-radius:8px;
+	text-align: center;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:5.33vw;
+}
+.hire_mall .hire_mall_three{
+	float: right;
+	margin:0.5vw 0;
+}
+.hire_copy{
+	float:left;
+}
+.hire_introduce{
+	margin-top: 2.66vw;
+}
+.hire_introduce span{
+	display: block;
+	float: left;
+	width: 21.66vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+.hire_money span{
+	display: block;
+	float: left;
+	width: 30vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+	margin: 1vw 0 0 0;
+}
+
+/***************************   shelves_miners  *********************************/
+
+.hire_right .hire_mall .hire_fire {
+	width: 18.46vw;
+	height: 4.26vw;
+	background:rgba(2,179,229,1);
+}
+.hire_right .hire_mall .hire_name {
+	width: 16.6vw;
+}
+.hire_right .hire_mall .tobehired {
+	width: 14.53vw;
+	height: 4.26vw;
+	background:rgba(217,110,97,0.9);
+}
+.hire_right .hire_mall .toshelves {
+	width: 14.53vw;
+	height: 4.26vw;
+	background:rgba(118,126,142,1);
+}
+.hire_right .hire_mall .hire_button {
+	border-radius:8px;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:4.26vw;
+}
+
+
+/*****************    miners_details    **********************/
+.miners{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.miners_name{
+	width: 100%;
+	margin: 6.93vw 0 1.86vw 0;
+	height:5.86vw;
+	text-align: center;
+	line-height: 5.86vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+}
+.miners_status{
+	width: 18.66vw;
+	height:4.26vw;
+	background:rgba(217,110,97,1);
+	border-radius:8px;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:4.26vw;
+	text-align: center;
+}
+.miners_user{
+	width: 100vw;
+	padding: 0 2vw;
+	margin-top: 8vw;
+}
+.miners_user .miners_user_left{
+	width: 48vw;
+	height:71.46vw;
+	/* outline:1px solid red; */
+	float:left;
+}
+.miners_user .miners_user_left img{
+	margin: 11.73vw 8.8vw;
+}
+.miners_user .miners_user_right{
+	width: 48vw;
+	height:71.46vw;
+	border:1px solid #232A38;
+	float:left;
+	background-color:#2E3646;
+	border-radius: 3vw;
+	background:rgba(46,54,70,0.5);
+	box-shadow:0px 0px 3px 0px rgba(0,0,0,0.5);
+	border-radius:10px;
+	opacity:0.9508;
+	border:1px solid rgba(57,69,94,1);
+}
+.miners_user .miners_user_right ul{
+	
+}
+.miners_user .miners_user_right li{
+	list-style: none;
+	float: left;
+	width: 16.53vw;
+	height:16.53vw;
+	margin: 5.86vw 0 0 4.8vw;
+	background-size:16.5vw 16.6vw;
+}
+.miners_user .miners_user_right img{
+	width: 10.66vw;
+	height:10.66vw;
+	margin: 2vw 2.93vw 2.93vw;
+	/* outline: 1px solid blue; */
+}
+.underline_w{
+	border-bottom:1px solid #2E3646;
+	height: 1px;
+	margin: 8vw 4vw 0 4vw;
+	width:92vw;
+	opacity: 0.7;
+}
+.miners_info{
+	margin: 6.93vw 4vw 0 4vw;
+}
+.miners_info span{
+	width:30.66vw;
+	height:5.33vw;
+	display: block;
+	float: left;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.miners_button{
+	margin:	21.06vw 4vw 0;
+	width: 92vw;
+	height:11.73vw;
+	line-height:9vw;
+	border-radius: 6vw;
+	background:rgba(2,179,229,1);
+	border:0;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	
+}
+.miners_level{
+	display: block;	
+	position: relative;
+	top:1.5vw;
+	left: 1.2vw;
+	width:6.4px;
+	height:4.53px;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:4.53px;
+}
+.miners_back_img1{
+	background: url(../img/bg_gaoji.png);
+}
+.miners_back_img2{
+	background: url(../img/bg_putong%20.png);
+}
+.miners_back_img3{
+	background: url(../img/bg_shenqi.png);
+}
+.miners_back_img4{
+	background: url(../img/bg_shishi.png);
+}
+.miners_back_img5{
+	background: url(../img/bg_xiyou@2x.png);
+}
+
+/******************     shelvesminers     ************************/
+.miners_kuang{
+	text-align: center;
+}
+.miners_attribute{
+	margin-top: 3.2vw;
+}
+.miners_attribute span{
+	width: 46vw;
+	margin-bottom: 3.2vw;
+}
+.sminers_button{
+	margin-top:39vw;
+}
+/******************     shelvesminers     ************************/
+.commodity_up .consumption_info{
+	
+}
+
+.consumption_m{
+	height:21.33vw;
+	margin: 0 4vw;
+}
+
+.consumption_m span{
+	display: block;
+}
+.consumption_top{
+	height:5.33vw;
+	margin:3.73vw 0 2.66vw 0 ;
+	/* outline: 1px solid blue; */
+}
+.consumption_top .consumption_top_left{
+	width: 20vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	float: left;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;;
+}
+.consumption_top .consumption_top_right{
+	width:25.33vw;
+	height:5.33vw;
+	text-align: right;
+	float: right;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.consumption_up {
+	height: 8.27vw;
+	margin-bottom: 3.73vw;
+	/* outline: 1px solid red; */
+}
+.consumption_up .consumption_up_left {
+	width:40vw;
+	height:4.53vw;
+	float: left;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+
+
+.consumption_up .consumption_up_right{
+	float: right;
+	width:18.66vw;
+	height:7.2vw;
+	text-align: center;
+	line-height: 7.2vw;
+	border-radius:5vw;
+	border:1px solid rgba(2,179,229,1);
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+}
+.consumption_img {
+	width: 10.13vw;
+	height:12.26vw;
+	float: left;
+	margin: 4vw 5.06vw 5.06vw 0;
+}
+/**********************   meminers    ************************/
+.meminers ul li {
+	height:21.33vw;
+	/* outline: 1px solid red; */
+	margin:0 4vw;
+}
+.meminers_left{
+	width: 11.73vw;
+	/* outline: 1px solid red; */
+	float: left;
+	margin-right:2.66vw;
+}
+.meminers_left img{
+	width: 11.73vw;
+	height: 14.4vw;
+	margin: 3.46vw 0;
+	padding:0 2.66vw 0 0;
+}
+.meminers_right{
+	float: left;
+	width:74.93vw;
+	height: 18.13vw;
+	margin: 4.26vw 0;
+	/* outline: 1px solid blue; */
+	
+}
+.meminers_right p{
+	margin-bottom: 0;
+}
+.meminers_mall{
+	width:74.93vw;
+}
+.meminers_mall span{
+	display: block;
+	float: left;
+}
+.meminers_mall .meminers_mall_one{
+	width: 15vw;
+	height:5.33vw;
+	/* outline: 1px solid red; */
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-right:2.66vw;
+}
+.meminers_mall .meminers_mall_two{
+	width:14.33vw;
+	height: 4.26vw;
+	background:rgba(2,179,229,1);
+	border-radius:8vw;
+	text-align: center;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:4.26vw;
+	margin-top: 0.3vw;
+}
+.meminers_mall .meminers_mall_three{
+	float: right;
+	margin:0.5vw 0;
+}
+.meminers_copy{
+	float:left;
+}
+.meminers_introduce{
+	margin-top: 2.66vw;
+}
+.meminers_introduce span{
+	display: block;
+	float: left;
+	width: 21.66vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+.meminers_money span{
+	display: block;
+	float: left;
+	width: 30vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+	margin: 1vw 0 0 0;
+}
+.meminers_right .meminers_mall .tobehired {
+	width: 10.53vw;
+	height: 4.26vw;
+	background:rgba(217,110,97,0.9);
+}
+
+/****************     miningrecords    *******************/
+.commodity_top  .miningrecords{
+	width:38vw;
+	margin-top: 0.3vw;
+}

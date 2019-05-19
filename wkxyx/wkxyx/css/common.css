@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #232A38;
+	font-family:"PingFangSC-Regular, sans-serif";
+}
+.mui-bar{
+	background-color:#2E3646;
+}
+.mui-icon{
+	color: #838C9E ;
+}
+.mui-bar-nav {
+	-webkit-box-shadow:0 1px 6px #000000;
+	box-shadow: 0 1px 6px #000000;
+}
+.form-item{
+	position:relative;
+	padding: 20px 5vw 0 5vw;
+	background-color: #232A38;	
+	margin: 0 auto;
+}
+.form-item input{
+	width: 100%;
+    height:40px;
+    line-height: 40px;
+    border: none;
+    border-bottom: 1px solid  #2E3646;
+    font-size: 16px;
+	color:#FFF;
+    margin: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	background-color: #232A38;
+}
+.form-item img {
+	position: absolute;
+    width: 4.5vw;
+    top: 45%;
+    right: 10vw;
+	overflow: auto;
+}
+.img{
+	border: none;
+}
+.mui-title{
+	color: #FFF;
+	font-weight: 300;
+}
+.form-item .send-code {
+    position: absolute;
+    top: 30%;
+    right: 7vw;
+    height: 13.3vw;
+    line-height: 40px;
+    font-size: 14px;
+    color: #3b7db4;
+    margin: 0;
+}
+input::-webkit-input-placeholder {
+	color: #41464F;
+	font-size: 14px;
+	line-height: 60px;
+	/* text-align: right; */
+}
+
+.mui-btn-block{
+	background-color: #303D4C;
+    border: 1px solid #303D4C;
+    width: 90vw;
+    margin: 0 5vw;
+    height: 40px;
+    line-height: 12px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+.go-tips {
+	position: fixed;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+	bottom: 10vw;
+    width: 100vw;
+}
+.go-tips a{
+	color:#3b7db4;
+}
+
+/*toast信息提示*/  
+.mui-toast-container {bottom: 50% !important;}  
+.mui-toast-message {background: url(/app/themes/default/images/toast.png) no-repeat center 10px #000; opacity: 0.6; color: #fff; width: 200px; padding: 10px 5px 10px 5px; font-size: 12px;}  
+
+.underline_w{
+	border-bottom:1px solid #2E3646;
+	height: 1px;
+	margin: 8vw 4vw 0 4vw;
+	width:92vw;
+	opacity: 0.7;
+}
+.miner_w{
+	margin: 0;
+	clear: both;
+}
+.top_height {
+    height: 13.06vw;
+    width: 100%;
+    overflow: hidden;
+}

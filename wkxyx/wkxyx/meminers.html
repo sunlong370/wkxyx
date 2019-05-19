@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/hireminers.css">
+		
+		<link rel="stylesheet" href="css/reveal.css">
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</head>
+	
+	<style>
+		.mui-table-view{
+			background:rgba(35,42,56,1);
+		}
+	</style>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title" >我的矿工</h1>
+			<a href="#" class="big-link sell_ore" data-reveal-id="myModal2" data-animation="none" style="color:rgba(178,188,210,1);">挖矿记录</a>
+		</header>
+		
+		<div class="mui-content meminers">
+			<div id="slider" class="mui-slider">
+				<ul>
+					<li class="mui-table-view-cell shelves meminers">
+						<div class="meminers_left">
+							<img src="img/worker_small@2x.png">
+						</div>
+						<div class="meminers_right">
+							<p class="meminers_copy meminers_mall">
+								<span class="meminers_mall_one meminers_name">1号矿工</span>
+								<span class="meminers_mall_two meminers_button meminers_fire">挖矿中</span>
+								<span class="mui-icon mui-icon-arrowright meminers_mall_three"></span>
+							</p>
+							<p class="meminers_copy meminers_introduce">
+								<span>体力：80</span>
+								<span>速度：100</span>
+								<span>熟练度：100</span>
+							</p>
+						</div>
+					</li>
+					<li class="mui-table-view-cell shelves meminers">
+						<div class="meminers_left">
+							<img src="img/worker_small@2x.png">
+						</div>
+						<div class="meminers_right">
+							<p class="meminers_copy meminers_mall">
+								<span class="meminers_mall_one meminers_name">2号矿工</span>
+								<span class="meminers_mall_two meminers_button tobehired">空闲</span>
+								<span class="mui-icon mui-icon-arrowright meminers_mall_three"></span>
+							</p>
+							<p class="meminers_copy meminers_introduce">
+								<span>体力：80</span>
+								<span>速度：100</span>
+								<span>熟练度：100</span>
+							</p>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		
+		
+			<!--公告-->	
+	<div id="myModal2" class="reveal-modal1">
+		<div class="dialogTop1">
+			<img class="dialogIco1" width="50" height="50" src="img/ico.png" alt="" />
+			<a href="javascript:;" class="claseDialogBtn close-reveal-modal"><img src="img/icon_close.png"/></a>
+		</div>
+		<form action="" method="post" id="editForm">
+			<ul class="editInfos1">
+				<li>
+					1、矿工每次进入矿井都要交纳矿石开采 税（1000金币）； 2、矿井的矿石被挖完后，矿井将会关闭， 矿工会自动停止挖矿； 3、矿工进入矿井时，体力值要高于80， 每挖一次矿会消耗5点体力值，体力 值为0时，矿工自动停止挖矿； 4、矿工退出挖矿后，再次进入矿井时， 需要再次支付矿石开采税。 
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!--公告结束-->	
+	</body>
+</html>
+

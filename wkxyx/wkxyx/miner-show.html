@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/hireminers.css">
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</head>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title" >矿工详情</h1>
+			<a class="sell_ore" style="color:rgba(178,188,210,1);	">雇佣说明</a>
+		</header>
+		
+		<div class="mui-content miners">
+			<p class="miners_name">1号矿工</p>
+			<p class="miners_status">空闲状态</p>
+			<div class="miners_user miners_kuang">
+				<img src="img/worker.png">
+			</div>
+			<div class="miners_info">
+				<span>体力：80</span>
+				<span style="text-align: center;">速度：100</span>
+				<span style="text-align: right;">熟练度：100</span>
+			</div>
+			<div class="miners_info miners_attribute">
+				<span>价格：100金币/h</span>
+				<span style="text-align: right;">出租：5h</span>
+			</div>
+			<a href="#" class="miners_button sminers_button big-link"  data-reveal-id="myModal" data-animation="none">停止挖矿</a>
+		</div>
+		
+			<!--提示通用-->
+	<div id="myModal" class="reveal-modal animated ">
+		
+		<div class="dialogTop">
+			<img class="dialogIco" width="50" height="50" src="img/ico.png" alt="" />
+			<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+		</div>
+		<form action="" method="post" id="editForm">
+			<ul class="editInfos">
+				<li>
+					是否停止矿工挖矿？
+				</li>
+				<li>
+					<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn queding">确认</button>
+					<!--<input type="button" value=""  />
+							<input type="submit" value="" class="" />-->
+
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!--提示通用结束-->
+	
+	</body>
+</html>
+

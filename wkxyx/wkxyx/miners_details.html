@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/hireminers.css">
+			<link rel="stylesheet" href="css/reveal.css">
+	
+	</head>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title" >矿工详情</h1>
+			<a class="sell_ore" style="color:rgba(178,188,210,1);	">雇佣说明</a>
+		</header>
+		
+		<div class="mui-content miners">
+			<p class="miners_name">1号矿工</p>
+			<p class="miners_status">空闲状态</p>
+			<div class="miners_user">
+				<div class="miners_user_left">
+					<img src="img/worker.png">
+				</div>
+				<div class="miners_user_right">
+					<ul>
+						<li class="miners_back_img1">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_toukui@2x.png" >
+						</li>
+						<li class="miners_back_img2">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_shoutao@2x.png" >
+						</li>
+						<li class="miners_back_img3">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_yifu@2x.png" >
+						</li>
+						<li class="miners_back_img4">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_chanzi@2x.png" >
+						</li>
+						<li class="miners_back_img5">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_xiezi@2x.png" >
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="underline_w"></div>
+			<div class="miners_info">
+				<span>体力：80</span>
+				<span style="text-align: center;">速度：100</span>
+				<span style="text-align: right;">熟练度：100</span>
+			</div>
+			<!--<button type="button" class=""></button>''-->
+			<a href="#" class="big-link miners_button" data-reveal-id="myModal3" data-animation="none">
+		挖矿
+	</a>
+	
+		</div>
+		
+		
+		
+			<!--扣费提醒-->
+	<div id="myModal3" class="reveal-modal1 animated ">
+		
+		<div class="dialogTop2">
+			<img class="dialogIco2" width="50" height="50" src="img/ico.png" alt="" />
+			<!--<a href="javascript:;" class="claseDialogBtn">关闭</a>-->
+		</div>
+		<form action="" method="post" id="editForm">
+			<ul class="editInfos2">
+				<li style="color: #fff; font-size: 16px;">
+					是否确定支付？
+				</li>
+				<li>
+					矿工挖矿需要支付矿石开采税： <br />
+					<p>1000</p>
+					， 支付完成后矿工将会自动进入矿井 进行挖矿。
+				</li>
+				<li>
+					<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+					<button type="button" class="submitBtn queding">确认</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!--扣费提醒结束-->
+	
+	
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</body>
+</html>
+

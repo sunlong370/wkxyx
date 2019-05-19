@@ -1,0 +1,1322 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #232A38;
+	font-family:"PingFangSC-Regular, sans-serif";
+}
+.mui-bar{
+	background-color:#2E3646;
+}
+.mui-icon{
+	color: #838C9E ;
+}
+.mui-bar-nav {
+	-webkit-box-shadow:0 1px 6px #000000;
+	box-shadow: 0 1px 6px #000000;
+}
+
+.mui-title{
+	color: #FFF;
+	font-weight: 300;
+}
+
+.mui-btn-block{
+	background-color: #303D4C;
+    border: 1px solid #303D4C;
+    width: 90vw;
+    margin: 0 5vw;
+    height: 11.73vw;
+    line-height: 12px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin-top: 5.6vw;
+}
+
+/*toast信息提示*/  
+.mui-toast-container {bottom: 50% !important;}  
+.mui-toast-message {background: url(/app/themes/default/images/toast.png) no-repeat center 10px #000; opacity: 0.6; color: #fff; width: 200px; padding: 10px 5px 10px 5px; font-size: 12px;}  
+
+.mui-bar{
+		height:13.33vw;
+}
+.mui-bar .mui-title{
+	height:13.33vw;
+	line-height: 13.33vw;
+}
+.mui-bar-nav.mui-bar .mui-icon{
+	margin-right: -4.26vw;
+	margin-left: -4.26vw;
+	padding-right: 4.26vw;
+	padding-left: 4.26vw;
+}
+.mui-bar .mui-icon{
+	padding-top: 4.26vw;
+	padding-bottom: 4.26vw;
+	font-size: 6vw;
+}
+html,#slider,.mui-content{  
+	width: 100%;  
+	background:rgba(35,42,56,1);
+}  
+.mui-slider-group{  
+   height: calc(100% - 45px);  
+}  
+/* .mui-slider{
+	position: initial;
+} */
+.mui-col-xs-4 {
+	width: 25%;
+}
+* { touch-action: none; }
+.mui-slider-group{
+	background:rgba(35,42,56,1);
+}
+.mui-table-view-cell:after{
+	left: 0px;
+	opacity: 0.1;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+	color:#FFF;
+}
+.mui-active ,.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color: #02B3E5;
+	background-color: #2E3646;
+}
+.mui-active {
+	color: #02B3E5;
+	background:rgba(35,42,56,1);
+}
+#sliderSegmentedControl{
+	background-color: #2E3646;
+}
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{
+	background-color: #02B3E5
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border-top: 0;
+}
+.mui-bar-nav~.mui-content{
+	padding-top: 13.33vw;
+}
+.mui-table-view-cell{
+	padding: 0;
+}
+
+.mui-table-view{
+	position: initial;
+}
+
+/********************    merchant 矿石商人   *************************/
+
+.sell_ore{
+	position: relative;
+	top:4vw;
+	float: right;
+	right:2vw;
+	display: block;
+	/* outline: 1px solid red; */
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+	
+}
+.commodity_m{
+	height:21.33vw;
+	margin: 0 4vw;
+	/* outline: 1px solid red; */
+}
+
+.commodity_m span{
+	display: block;
+}
+.commodity_top{
+	height:6.6vw;
+	margin-top:3.73vw;
+	/* outline: 1px solid blue; */
+}
+.commodity_top .commodity_top_left{
+	width: 43vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	float: left;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+}
+.commodity_top .commodity_top_right{
+	width:24.86vw;
+	height:4.53vw;
+	float: right;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+	text-align: right;
+}
+.commodity_up {
+	height: 8.27vw;
+	margin-bottom: 3.73vw;
+	/* outline: 1px solid red; */
+}
+.commodity_up .commodity_up_left , .commodity_top .commodity_up_left{
+	width:15vw;
+	height:6.13vw;
+	line-height: 6.13vw;
+	float: left;
+	    font-size: 14px;
+	color:rgba(178,188,210,1);
+}
+#zuanshi_img{
+	width: 7.46vw;
+	height:6.13vw;
+	float: left;
+	margin-right: 2vw;
+}
+
+.commodity_up .commodity_up_right{
+	float: right;
+	width:18.66vw;
+	height:7.2vw;
+	text-align: center;
+	line-height: 7.2vw;
+	border-radius:5vw;
+	border:1px solid rgba(2,179,229,1);
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+}
+
+.merchant_tankuang{
+	width: 74.4vw;
+	height:69.6vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 69.6vw;
+	left: 0;
+	top:57.86vw;
+	min-height: 0;
+}
+.merchant_tankuang .merchant_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.merchant_tankuang .merchant_tankuang_con{
+	margin-top: 13.06vw;
+	padding: 0;
+}
+.merchant_tankuang_con .merchant_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* margin-bottom: 4vw; */
+	/* outline: 1px solid red; */
+}
+.merchant_tankuang_con .merchant_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 5vw;
+	text-align: right;
+}
+.merchant_tankuang_con .merchant_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.merchant_tankuang_con .merchant_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 5vw;
+	font-size:14px;
+	
+}
+.merchant_tankuang_con .merchant_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	color:rgba(2,179,229,1);
+	
+}
+.merchant_info_unit{
+	position: absolute;
+	right:7vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.merchant_button button{
+	margin-top: 2vw;
+}
+
+/*********************** shelves  *****************************/
+
+	
+.shelves{
+	height:16vw;
+	margin: 0 4vw;
+	/* outline: 1px solid red; */
+}
+
+.shelves span{
+	display: block;
+}
+.shelves_up {
+	height: 15.8vw;
+    padding-top: 4.53vw;
+}
+.shelves_up .shelves_up_left {
+	width:15vw;
+	height:6.13vw;
+	line-height: 6.13vw;
+	float: left;
+	color:rgba(178,188,210,1);
+}
+
+
+.shelves_up .shelves_up_right{
+	float: right;
+	width:18.66vw;
+	height:7.2vw;
+	text-align: center;
+	line-height: 7.2vw;
+	border-radius:5vw;
+	border:1px solid rgba(2,179,229,1);
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+}
+
+.shelves_tankuang{
+	width: 74.4vw;
+	height:89.6vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 89.6vw;
+	left: 0;
+	top:48vw;
+}
+.shelves_tankuang .shelves_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.shelves_tankuang .shelves_tankuang_con{
+	margin-top: 13.06vw;
+	padding: 0;
+}
+.shelves_tankuang_con .shelves_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* margin-bottom: 4vw; */
+	/* outline: 1px solid red; */
+}
+.shelves_tankuang_con .shelves_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 4.53vw;
+	text-align: right;
+}
+.shelves_tankuang_con .shelves_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.shelves_tankuang_con .shelves_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 4.53vw;
+	font-size:14px;
+	
+}
+.shelves_tankuang_con .shelves_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	
+}
+.shelves_info_unit{
+	position: absolute;
+	right:7vw;
+	width:28px;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.shelves_button button{
+	margin-top: 2vw;
+}
+
+
+
+
+
+/*************************   hire_merchants   **************************/
+.hire ul li {
+	height:26.66vw;
+	/* outline: 1px solid red; */
+	margin:0 4vw;
+}
+.hire_left{
+	width: 11.73vw;
+	/* outline: 1px solid red; */
+	float: left;
+	margin-right:2.66vw;
+}
+.hire_left img{
+	width: 11.73vw;
+	height: 14.4vw;
+	margin: 6.13vw 0;
+	padding:0 2.66vw 0 0;
+}
+.hire_right{
+	float: left;
+	width:74.93vw;
+	height: 18.13vw;
+	margin: 4.26vw 0;
+	/* outline: 1px solid blue; */
+	
+}
+.hire_right p{
+	margin-bottom: 0;
+}
+.hire_mall{
+	width:74.93vw;
+}
+.hire_mall span{
+	display: block;
+	float: left;
+}
+.hire_mall .hire_mall_one{
+	width: 39vw;
+	height:5.33vw;
+	/* outline: 1px solid red; */
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-right:2.66vw;
+}
+.hire_mall .hire_mall_two{
+	width:9.33vw;
+	height: 5.33vw;
+	background:rgba(2,179,229,1);
+	border-radius:8px;
+	text-align: center;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:5.33vw;
+}
+.hire_mall .hire_mall_three{
+	float: right;
+	margin:0.5vw 0;
+}
+.hire_copy{
+	float:left;
+}
+.hire_introduce{
+	margin-top: 2.66vw;
+}
+.hire_introduce span{
+	display: block;
+	float: left;
+	width: 21.66vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+.hire_money span{
+	display: block;
+	float: left;
+	width: 30vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+	margin: 1vw 0 0 0;
+}
+
+/***************************   shelves_miners  *********************************/
+
+.hire_right .hire_mall .hire_fire {
+	width: 18.46vw;
+	height: 4.26vw;
+	margin-top: 0.5vw;
+	background:rgba(2,179,229,1);
+}
+.hire_right .hire_mall .hire_name {
+	width: 16.6vw;
+}
+.hire_right .hire_mall .tobehired {
+	width: 14.53vw;
+	height: 4.26vw;
+	margin-top: 0.5vw;
+	background:rgba(217,110,97,0.9);
+}
+.hire_right .hire_mall .toshelves {
+	width: 14.53vw;
+	height: 4.26vw;
+	margin-top: 0.5vw;
+	background:rgba(118,126,142,1);
+}
+.hire_right .hire_mall .hire_button {
+	border-radius:8px;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:4.26vw;
+}
+
+
+/*****************    miners_details    **********************/
+.miners{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.miners_name{
+	width: 100%;
+	margin: 6.93vw 0 1.86vw 0;
+	height:5.86vw;
+	text-align: center;
+	line-height: 5.86vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+}
+.miners_status{
+	width: 18.66vw;
+	height:4.26vw;
+	background:rgba(217,110,97,1);
+	border-radius:8px;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:4.26vw;
+	text-align: center;
+}
+.miners_user{
+	width: 100vw;
+	padding: 0 2vw;
+	margin-top: 8vw;
+}
+.miners_user .miners_user_left{
+	width: 48vw;
+	height:71.46vw;
+	/* outline:1px solid red; */
+	float:left;
+}
+.miners_user .miners_user_left img{
+	margin: 11.73vw 8.8vw;
+}
+.miners_user .miners_user_right{
+	width: 48vw;
+	height:71.46vw;
+	border:1px solid #232A38;
+	float:left;
+	background-color:#2E3646;
+	border-radius: 3vw;
+	background:rgba(46,54,70,0.5);
+	box-shadow:0px 0px 3px 0px rgba(0,0,0,0.5);
+	border-radius:10px;
+	opacity:0.9508;
+	border:1px solid rgba(57,69,94,1);
+}
+.miners_user .miners_user_right ul{
+	
+}
+.miners_user .miners_user_right li{
+	list-style: none;
+	float: left;
+	width: 16.53vw;
+	height:16.53vw;
+	margin: 5.86vw 0 0 4.8vw;
+	background-size:16.5vw 16.6vw;
+}
+.miners_user .miners_user_right img{
+	width: 10.66vw;
+	height:10.66vw;
+	margin: 2vw 2.93vw 2.93vw;
+	/* outline: 1px solid blue; */
+}
+.underline_w{
+	border-bottom:1px solid #2E3646;
+	height: 1px;
+	margin: 8vw 4vw 0 4vw;
+	width:92vw;
+	opacity: 0.7;
+}
+.miner_w{
+	margin: 0;
+	clear: both;
+}
+.miners_info{
+	margin: 6.93vw 4vw 0 4vw;
+}
+.miners_info span{
+	width:30.66vw;
+	height:5.33vw;
+	display: block;
+	float: left;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.miners_button{
+	margin:	21.06vw 4vw 0;
+	width: 92vw;
+	height:11.73vw;
+	line-height:11.73vw;
+	border-radius: 6vw;
+	background:rgba(2,179,229,1);
+	border:0;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	display: block;
+	text-align: center;
+	
+}
+.miners_level{
+	display: block;	
+	position: relative;
+	top:1.5vw;
+	left: 1.2vw;
+	width:6.4px;
+	height:4.53px;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:4.53px;
+}
+.miners_back_img1{
+	background: url(../img/bg_gaoji.png);
+}
+.miners_back_img2{
+	background: url(../img/bg_putong%20.png);
+}
+.miners_back_img3{
+	background: url(../img/bg_shenqi.png);
+}
+.miners_back_img4{
+	background: url(../img/bg_shishi.png);
+}
+.miners_back_img5{
+	background: url(../img/bg_xiyou@2x.png);
+}
+.miners_name a{
+	outline: 1px solid blue;
+	width: 4.53vw;
+	height:4.53vw;
+	display: block;
+	position: relative;
+	top:-5.33vw;
+	left:60vw;
+}
+
+/******************     shelvesminers     ************************/
+.miners_kuang{
+	text-align: center;
+}
+.miners_attribute{
+	margin-top: 3.2vw;
+}
+.miners_attribute span{
+	width: 46vw;
+	margin-bottom: 3.2vw;
+}
+.sminers_button{
+	margin:25vw 0 19vw 0;
+}
+
+.shelvesminers_tankuang{
+	width: 74.4vw;
+	height:69.6vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 69.6vw;
+	left: 0;
+	top:48vw;
+	min-height: 0;
+	/* max-height: 0; */
+}
+.shelvesminers_tankuang .shelvesminers_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.shelvesminers_tankuang .shelvesminers_tankuang_con{
+	padding: 0;
+	margin-top: 11.73vw;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* outline: 1px solid red; */
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 4.53vw;
+	text-align: right;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 4.53vw;	
+	font-size:14px;
+	
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	
+}
+.shelvesminers_info_unit{
+	position: absolute;
+	right:7vw;
+	width:28px;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.shelvesminers_button button{
+	margin-top: 2vw;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_is{
+	text-align: center;
+	height:5.33vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 3.46vw;
+}
+.shelvesminers_tankuang_con .shelvesminers_tankuang_info{
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	text-align: center;
+	margin-bottom: 6.13vw;
+}
+
+
+
+/******************     shelvesminers     ************************/
+.commodity_up .consumption_info{
+	
+}
+
+.consumption_m{
+	height:21.33vw;
+	margin: 0 4vw;
+}
+
+.consumption_m span{
+	display: block;
+}
+.consumption_top{
+	height:5.33vw;
+	margin:3.73vw 0 2.66vw 0 ;
+	/* outline: 1px solid blue; */
+}
+.consumption_top .consumption_top_left{
+	width: 20vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	float: left;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;;
+}
+.consumption_top .consumption_top_right{
+	width:25.33vw;
+	height:5.33vw;
+	text-align: right;
+	float: right;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.consumption_up {
+	height: 8.27vw;
+	margin-bottom: 3.73vw;
+	/* outline: 1px solid red; */
+}
+.consumption_up .consumption_up_left {
+	width:40vw;
+	height:4.53vw;
+	float: left;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+
+
+.consumption_up .consumption_up_right{
+	float: right;
+	width:18.66vw;
+	height:7.2vw;
+	text-align: center;
+	line-height: 7.2vw;
+	border-radius:5vw;
+	border:1px solid rgba(2,179,229,1);
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(2,179,229,1);
+}
+.consumption_img {
+	width: 10.13vw;
+	height:12.26vw;
+	float: left;
+	margin: 4vw 5.06vw 5.06vw 0;
+}
+
+
+.consumption_tankuang{
+	width: 74.4vw;
+	height:90.66vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 90.66vw;
+	left: 0;
+	top:46.4vw;
+	min-height: 0;
+	/* max-height: 0; */
+}
+.consumption_tankuang .consumption_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.consumption_tankuang .consumption_tankuang_imgifo{
+	margin-top: 11vw;
+}
+.consumption_tankuang .consumption_tankuang_con{
+	padding: 0;
+
+.consumption_tankuang .consumption_tankuang_con{
+	padding: 0;
+}}
+.consumption_tankuang_con .consumption_tankuang_left{
+	float: left;
+	width: 25vw;
+	/* outline: 1px solid red; */
+}
+.consumption_tankuang_con .consumption_tankuang_left ul li {
+	float: left;
+	width: 25vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 4.53vw;
+	text-align: right;
+}
+.consumption_tankuang_con .consumption_tankuang_right{
+	float: left;
+	width: 46.93vw;
+	/* outline: 1px solid red; */
+}
+.consumption_tankuang_con .consumption_tankuang_right ul li {
+	float: left;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	margin-bottom: 4.53vw;	
+	font-size:14px;
+	
+}
+.consumption_tankuang_con .consumption_tankuang_right ul li input{
+	float: left;
+	width: 41vw;
+	height: 5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	background-color: #222937;
+	border: 0;
+	border-bottom: 1px solid #2E3646;
+	margin-bottom: 0px;
+	padding: 0;
+	
+}
+.consumption_info_unit{
+	position: absolute;
+	right:7vw;
+	width:28px;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+.consumption_button{
+	margin-top: 5vw;
+}
+.consumption_tankuang_con .consumption_tankuang_is{
+	text-align: center;
+	height:5.33vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+	margin-bottom: 3.46vw;
+}
+.consumption_tankuang_con .consumption_tankuang_info{
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	text-align: center;
+	margin-bottom: 6.13vw;
+}
+
+
+/**********************   meminers    ************************/
+.meminers ul li {
+	height:21.33vw;
+	/* outline: 1px solid red; */
+	margin:0 4vw;
+	overflow: hidden;
+}
+.meminers_left{
+	width: 11.73vw;
+	/* outline: 1px solid red; */
+	float: left;
+	margin-right:2.66vw;
+}
+.meminers_left img{
+	width: 11.73vw;
+	height: 14.4vw;
+	margin: 3.46vw 0 0 0;
+	padding:0 2.66vw 0 0;
+}
+.meminers_right{
+	float: left;
+	width:74.93vw;
+	height: 16.5vw;
+	margin: 4.26vw 0 0 0;
+	/* outline: 1px solid blue; */
+	
+}
+.meminers_right p{
+	margin-bottom: 0;
+}
+.meminers_mall{
+	width:74.93vw;
+}
+.meminers_mall span{
+	display: block;
+	float: left;
+}
+.meminers_mall .meminers_mall_one{
+	width: 17vw;
+	height:5.33vw;
+	/* outline: 1px solid red; */
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.33vw;
+}
+.meminers_mall .meminers_mall_two{
+	width:14.33vw;
+	height: 4.26vw;
+	background:rgba(2,179,229,1);
+	border-radius:8vw;
+	text-align: center;
+	font-size:11px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(35,42,56,1);
+	line-height:4.26vw;
+	margin-top: 0.3vw;
+}
+.meminers_mall .meminers_mall_three{
+	float: right;
+	margin:0.5vw 0;
+}
+.meminers_copy{
+	float:left;
+}
+.meminers_introduce{
+	margin-top: 1vw;
+}
+.meminers_introduce span{
+	display: block;
+	float: left;
+	width: 21.66vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+.meminers_money span{
+	display: block;
+	float: left;
+	width: 30vw;
+	height: 4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+	margin: 1vw 0 0 0;
+}
+.meminers_right .meminers_mall .tobehired {
+	width: 10.53vw;
+	height: 4.26vw;
+	background:rgba(217,110,97,0.9);
+}
+
+/**************************** sell_diamonds **********/
+
+.sell_tankuang{
+	width: 74.4vw;
+	height:56vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 56vw;
+	left: 0;
+	top:45vw;
+}
+.sell_tankuang .sell_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.sell_tankuang .sell_tankuang_ul{
+	height:42.93vw;
+	margin-top: 13.07vw;
+	padding: 0;
+}
+.sell_tankuang .sell_tankuang_is{
+	height:5.86vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:5.86vw;
+	min-height: 0;
+}
+.sell_tankuang .sell_tankuang_info{
+	margin-top: 3.46vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	/* min-height: 0; */
+}
+
+.sell_tankuang .sell_tankuang_ul  li input{
+	width: 56vw;
+    height: 5.33vw;
+    font-size: 14px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    line-height: 5.33vw;
+    background-color: #222937;
+    border: 0;
+    border-bottom: 1px solid #2E3646;
+    margin-bottom: 0px;
+    padding: 4vw 5.2vw;
+    /* outline: 1px solid red; */
+    margin: 0 8vw;
+	text-align: center;
+	color:rgba(118,126,142,1);
+	
+}
+.sell_tankuang_miners{
+	height: 48vw;
+	background-size: 74.4vw 48vw;
+	top:45vw;
+}
+/****************     miningrecords    *******************/
+.commodity_top  .miningrecords{
+	width:38vw;
+	margin-top: 0.3vw;
+}
+
+/*****************                 ************************/
+.sell_ore_color{
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+}
+/****************     minersdetails    ***************/
+.miners_detailsun{
+	width: 92vw;
+	margin: 20.53vw 4vw 0;
+}
+.miners_detailsun a{
+	width: 44vw;
+	height:11.73vw;
+	border-radius:10vw;
+	font-size:16px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	float: left;
+	display: block;
+	text-align: center;
+	line-height:11.73vw;
+	
+}
+.miners_detailsun .miners_detailsun_left{
+	border:1px solid rgba(2,179,229,1);
+	background:rgba(35,42,56,1);
+	color:rgba(2,179,229,1);
+	margin-right: 4vw;
+	margin-bottom: 9.6vw;
+}
+.miners_detailsun .miners_detailsun_right{
+	border:1px solid rgba(2,179,229,1);
+	background:rgba(2,179,229,1);
+	color:rgba(255,255,255,1);
+	margin-bottom: 9.6vw;
+}
+
+.minersdetails_tankuang{
+	width: 74.4vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw auto;
+	left: 0;
+	top:57.86vw;
+	min-height: 0;
+}
+.minersdetails_tankuang .minersdetails_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.minersdetails_tankuang .minersdetails_tankuang_ul{
+	width: 59.73vw;
+	/* outline: 1px solid red; */
+	margin:0 7.2vw;
+	padding: 0;
+
+}
+.minersdetails_tankuang .minersdetails_tankuang_ul li{
+	text-align: initial;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+}
+.minersdetails_tankuang_cha{
+	top: -3vw;
+    right: -3vw;
+}
+.minersdet_tankuang{
+	width: 74.4vw;
+	height:49.86vw;
+	margin: 0 12.8vw;
+	background-size: 74.4vw 49.86vw;
+	left: 0;
+	top:65vw;
+}
+.minersdet_tankuang .minersdet_tankuang_img{
+	width: 31.73vw;
+	height:10.66vw;
+	left:21.33vw;
+	margin-left: 0;
+	top:-5.33vw;
+}
+.minersdet_tankuang .minersdet_tankuang_left img{
+	width: 10.66vw;
+	height:10.66vw;
+}
+.minersdet_tankuang_cha{
+	top: -3vw;
+    right: -3vw;
+}
+/****************      backpack        ********************/
+.backpack_title{
+	margin-top: 3.73vw;
+	height:5.33vw;
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:5.33vw;
+	text-align: center;
+}
+.backpack_money{
+	height:8.8vw;
+	font-size:24px;
+	font-family:PingFang-SC-Bold;
+	font-weight:bold;
+	color:rgba(2,179,229,1);
+	line-height:8.8v;
+	text-align: center;
+}
+.backpack_m {
+	/* outline: 1px solid red; */
+	height:16vw;	
+}
+.backpack_m .backpack_up{
+	margin-top: 4.53vw;
+}
+.backpack_up .backpack_up_right{
+	border:1px solid rgba(65,70,79,1);
+	color:rgba(178,188,210,1);
+	margin-right: 2.66vw;
+}
+.backpack_m .backpack_up_1{
+	/* margin: 1.86vw 0; */
+}
+.backpack_m .backpack_up_1 img#zuanshi_img{
+	width:10.06vw;
+	height:12.66vw;
+	margin: -2.7vw 0 1.86vw 0;
+}
+
+/**************               ******************/
+.choose_tankuang{
+	height:48vw;
+	background-size: 74.4vw 48vw;
+}
+.choose_tankuang .choose_tankuang_is{
+	margin-bottom: 5vw;
+}
+/************       public_mineral_pool     ********************/
+.mineral_pool{
+	height:4.53vw;
+	font-size:12px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+	line-height:4.53vw;
+}
+.mineral_pool_title{
+	font-size:14px;
+	font-family:PingFang-SC-Medium;
+	font-weight:500;
+	color:rgba(178,188,210,1);
+}
+.pool_font_color p{
+	color:rgba(178,188,210,1);
+}
+.pool_hr{
+	width: 98%; 
+	margin:0 0 0 4vw;
+	border: 0;
+	height: 1px;
+	background:rgba(28,34,46,1);
+}

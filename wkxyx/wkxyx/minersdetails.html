@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/hireminers.css">
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.reveal.js"></script>
+	</head>	
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title" >矿工详情</h1>
+			<a class="sell_ore big-link" style="color:rgba(178,188,210,1);" data-reveal-id="myModal2" data-animation="none">雇佣说明</a>
+		</header>
+		
+		<div class="mui-content miners">
+			<p class="miners_name">1号矿工</p>
+			<p class="miners_status">空闲状态</p>
+			<div class="miners_user">
+				<div class="miners_user_left">
+					<img src="img/worker.png">
+				</div>
+				<div class="miners_user_right">
+					<ul>
+						<li class="miners_back_img1">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_toukui@2x.png" >
+						</li>
+						<li class="miners_back_img2">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_shoutao@2x.png" >
+						</li>
+						<li class="miners_back_img3">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_yifu@2x.png" >
+						</li>
+						<li class="miners_back_img4">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_chanzi@2x.png" >
+						</li>
+						<li class="miners_back_img5">
+							<span class='miners_level'>Lv.2</span>
+							<img src="img/icon_xiezi@2x.png" >
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="underline_w"></div>
+			<div class="miners_info">
+				<span>体力：80</span>
+				<span style="text-align: center;">速度：100</span>
+				<span style="text-align: right;">熟练度：100</span>
+			</div>
+			<div class="miners_detailsun">
+				<a href="#" class="miners_detailsun_left big-link" data-reveal-id="myModal" data-animation="none">下载</a>
+				<a href="#" class="miners_detailsun_right big-links"  data-reveal-id="myModal5" data-animation="none">上架</a>
+			</div>
+		</div>
+		
+		
+		<!--提示通用-->
+		<div id="myModal" class="reveal-modal sell_tankuang ">
+			<img class="dialogIco sell_tankuang_img" src="img/ico.png" alt="" />
+			<form action="" method="post" id="editForm">
+				<ul class="editInfos sell_tankuang_ul">
+					<li class="sell_tankuang_is">是否确定下架？</li>
+					<li class="editInfos_info sell_tankuang_info">矿石下架不会返还手续费</li>
+					<li class="sell_button">
+						<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+						<button type="button" class="submitBtn queding">确认</button>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<!--提示通用结束-->
+		
+		
+		
+		
+		<!--公告-->	
+		<div id="myModal2" class="reveal-modal1 minersdetails_tankuang">
+			<div class="dialogTop1">
+				<img class="dialogIco1 minersdetails_tankuang_img"  src="img/ico.png" alt="" />
+				<a href="javascript:;" class="claseDialogBtn close-reveal-modal minersdetails_tankuang_cha"><img src="img/icon_close.png"/></a>
+			</div>
+			<form action="" method="post" id="editForm">
+				<ul class="editInfos1 minersdetails_tankuang_ul">
+					<li>1、矿工每次进入矿井都要交纳矿石开采 税（1000金币）；</li>
+					<li>2、矿井的矿石被挖完后，矿井将会关闭， 矿工会自动停止挖矿；</li>
+					<li>3、矿工进入矿井时，体力值要高于80， 每挖一次矿会消耗5点体力值，体力 值为0时，矿工自动停止挖矿；</li>
+					<li>4、矿工退出挖矿后，再次进入矿井时， 需要再次支付矿石开采税。</li>
+				</ul>
+			</form>
+		</div>
+		<!--公告结束-->	
+		
+			<!--有标题可输入-->
+		<div id="myModal5" class="reveal-modal1 merchant_tankuang ">
+			<img class="dialogIco3 merchant_tankuang_img" src="img/ico.png" alt="" />
+			<form action="" method="post" id="editForm">
+				<div class="editInfos4 merchant_tankuang_con">
+					<div class="merchant_tankuang_left">
+						<ul>
+							<li>出租时间：</li>
+							<li>出租价格：</li>
+							<li>手续费：</li>
+						</ul>
+					</div>
+					<div class="merchant_tankuang_right">
+						<ul>
+							<li>
+								<input type="" name="" id="" value=""  class="editDiv3-center" />
+								<p class="merchant_info_unit">小时</p>
+								</li>
+							<li>
+								<input type="" name="" id="" value=""  class="editDiv3-center" />
+								<p class="merchant_info_unit">金币/小时</p>
+								</li>
+							<li>
+								<input type="" name="" id="" value=""  class="editDiv3-center" />
+								<p class="merchant_info_unit">金币</p>
+								</li>
+							<li>
+						</ul>
+					</div>	
+					<div class="merchant_button">
+						<button type="button" class="submitBtn close-reveal-modal quxiao">取消</button>
+						<button type="button" class="submitBtn queding">确认</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--有标题可输入结束-->
+		
+	</body>
+</html>
+
